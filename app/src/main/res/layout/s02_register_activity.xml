@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/s02_register_color_background_screen"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar_custom_view" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/s02_register_activity_img_vietnamese"
+                android:layout_width="@dimen/s01_login_activity_image_language_size"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:padding="@dimen/s02_register_s01_image_language_padding"
+                android:src="@drawable/s18_setting_vietnamese" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/s02_register_activity_img_english"
+                android:layout_width="@dimen/s01_login_activity_image_language_size"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:padding="@dimen/s02_register_s01_image_language_padding"
+                android:src="@drawable/s18_setting_english" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/s02_register_color_background_screen"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/s02_register_padding_all_screen"
+            android:paddingRight="@dimen/s02_register_padding_all_screen">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/mTvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/s01_login__lbl_register"
+                android:textColor="@color/s02_register_color_text"
+                android:textSize="@dimen/s02_register_text_view_size"
+                android:textStyle="bold"
+                tools:ignore="SpUsage" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/mTxtUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/s02_register_text_view_size_title_margin"
+                android:text="@string/common_auth__lbl_username"
+                android:textColor="@color/s02_register_color_text"
+                android:textSize="@dimen/s02_register_text_view_size"
+                tools:ignore="SpUsage" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/s02_register_activity_txt_username"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/s02_register_edit_text_height"
+                android:layout_marginTop="@dimen/s02_register_edit_text_margin"
+                android:background="@drawable/s02_bg_edit_text"
+                android:inputType="textPersonName"
+                android:maxLength="@integer/common_txt_username_max_length"
+                android:padding="@dimen/s02_register_edit_text_padding" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/mTxtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/s02_register_text_view_size_title_margin"
+                android:text="@string/common_auth__lbl_email"
+                android:textColor="@color/s02_register_color_text"
+                android:textSize="@dimen/s02_register_text_view_size"
+                tools:ignore="SpUsage" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/mEdtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/s02_register_edit_text_height"
+                android:layout_marginTop="@dimen/s02_register_edit_text_margin"
+                android:background="@drawable/s02_bg_edit_text"
+                android:inputType="textEmailAddress"
+                android:maxLength="@integer/common_txt_email_max_length"
+                android:padding="@dimen/s02_register_edit_text_padding" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/mTxtPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/s02_register_text_view_size_title_margin"
+                android:text="@string/common_auth__lbl_password"
+                android:textColor="@color/s02_register_color_text"
+                android:textSize="@dimen/s02_register_text_view_size"
+                tools:ignore="SpUsage" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/s02_register_activity_txt_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/s02_register_edit_text_height"
+                android:layout_marginTop="@dimen/s02_register_edit_text_margin"
+                android:background="@drawable/s02_bg_edit_text"
+                android:inputType="textPassword"
+                android:maxLength="@integer/common_txt_password_max_length"
+                android:padding="@dimen/s02_register_edit_text_padding" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/mTxtConfirmPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/s02_register_text_view_size_title_margin"
+                android:text="@string/common_auth__lbl_confirm_password"
+                android:textColor="@color/s02_register_color_text"
+                android:textSize="@dimen/s02_register_text_view_size"
+                tools:ignore="SpUsage" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/mEdtConfirmPass"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/s02_register_edit_text_height"
+                android:layout_marginTop="@dimen/s02_register_edit_text_margin"
+                android:background="@drawable/s02_bg_edit_text"
+                android:inputType="textPassword"
+                android:maxLength="@integer/common_txt_password_max_length"
+                android:padding="@dimen/s02_register_edit_text_padding" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/mTvAgreeTerm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:padding="@dimen/s02_register_text_view_service_margin"
+                android:text="@string/s02_register__lbl_terms_of_service"
+                android:textColor="@color/s02_register_color_text"
+                android:textSize="@dimen/s02_register_text_view_size_service"
+                tools:ignore="SpUsage" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/mChbAgree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/s02_register_background_checkbox" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/s02_register_lbl_service"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/s02_register_edit_text_padding"
+                    android:layout_marginStart="@dimen/s02_register_edit_text_padding"
+                    android:text="@string/s02_register__chk_agree_to_terms_of_service"
+                    android:textColor="@color/s02_register_color_text"
+                    android:textSize="@dimen/s02_register_text_view_size_service"
+                    tools:ignore="SpUsage" />
+            </LinearLayout>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/mBtnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/s02_register_button_register_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/s02_register_button_register_margin_top"
+                android:background="@drawable/s02_register_bg_button"
+                android:text="@string/s02_register__btn_register"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

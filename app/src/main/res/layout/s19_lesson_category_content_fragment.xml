@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/s19_lesson_category_content_color_screen"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/s19_lesson_category_content_color_screen"
+        android:orientation="vertical"
+        android:padding="@dimen/s19_lesson_category_content_padding">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/s19_lesson_category_content_color_text_header"
+            android:textSize="@dimen/s19_lesson_category_text_size"
+            tools:text="Basic/ word/ knowledge/ detail" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/mImgLogo"
+            android:layout_width="@dimen/s19_lesson_category_image_logo_size"
+            android:layout_height="@dimen/s19_lesson_category_image_logo_size"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/s19_lesson_category_image_logo_margin_top"
+            android:layout_marginTop="@dimen/s19_lesson_category_content_padding"
+            android:contentDescription="@null"
+            android:src="@drawable/s19_lesson_category_ic_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/mBtnExplain"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/s19_lesson_category_item_height"
+                android:layout_marginTop="@dimen/s19_lesson_category_item_margin_top"
+                android:background="@drawable/s19_lesson_category_bg_item">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/mImgGrammar"
+                    android:layout_width="@dimen/s19_lesson_category_image_size"
+                    android:layout_height="@dimen/s19_lesson_category_image_size"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/s19_lesson_category_image_margin_left"
+                    android:layout_marginStart="@dimen/s19_lesson_category_image_margin_left"
+                    android:contentDescription="@null"
+                    android:src="@drawable/s19_lesson_category_ic_grammar" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/s19_lesson_category_text_margin"
+                    android:layout_marginStart="@dimen/s19_lesson_category_text_margin"
+                    android:layout_toEndOf="@+id/mImgGrammar"
+                    android:layout_toRightOf="@+id/mImgGrammar"
+                    android:maxLines="1"
+                    android:text="@string/common_module__grammar"
+                    android:textColor="@color/s19_lesson_category_content_color_text_item"
+                    android:textSize="@dimen/s19_lesson_category_text_size" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/mBtnKnowledge"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/s19_lesson_category_item_height"
+                android:layout_marginTop="@dimen/s19_lesson_category_item_margin_top"
+                android:background="@drawable/s19_lesson_category_bg_item">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/mImgKnow"
+                    android:layout_width="@dimen/s19_lesson_category_image_size"
+                    android:layout_height="@dimen/s19_lesson_category_image_size"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/s19_lesson_category_image_margin_left"
+                    android:layout_marginStart="@dimen/s19_lesson_category_image_margin_left"
+                    android:contentDescription="@null"
+                    android:src="@drawable/s19_lesson_category_ic_know" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/s19_lesson_category_text_margin"
+                    android:layout_marginStart="@dimen/s19_lesson_category_text_margin"
+                    android:layout_toEndOf="@+id/mImgKnow"
+                    android:layout_toRightOf="@+id/mImgKnow"
+                    android:maxLines="1"
+                    android:text="@string/common_module__knowledge"
+                    android:textColor="@color/s19_lesson_category_content_color_text_item"
+                    android:textSize="@dimen/s19_lesson_category_text_size" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/mBtnFlashcard"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/s19_lesson_category_item_height"
+                android:layout_marginTop="@dimen/s19_lesson_category_item_margin_top"
+                android:background="@drawable/s19_lesson_category_bg_item">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/mImgFlash"
+                    android:layout_width="@dimen/s19_lesson_category_image_size"
+                    android:layout_height="@dimen/s19_lesson_category_image_size"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/s19_lesson_category_image_margin_left"
+                    android:layout_marginStart="@dimen/s19_lesson_category_image_margin_left"
+                    android:contentDescription="@null"
+                    android:src="@drawable/s19_lesson_category_ic_flash" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/s19_lesson_category_text_margin"
+                    android:layout_marginStart="@dimen/s19_lesson_category_text_margin"
+                    android:layout_toEndOf="@+id/mImgFlash"
+                    android:layout_toRightOf="@+id/mImgFlash"
+                    android:maxLines="1"
+                    android:text="@string/common_module__flashcard"
+                    android:textColor="@color/s19_lesson_category_content_color_text_item"
+                    android:textSize="@dimen/s19_lesson_category_text_size" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/mBtnPractice"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/s19_lesson_category_item_height"
+                android:layout_marginTop="@dimen/s19_lesson_category_item_margin_top"
+                android:background="@drawable/s19_lesson_category_bg_item">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/mImgPra"
+                    android:layout_width="@dimen/s19_lesson_category_image_size"
+                    android:layout_height="@dimen/s19_lesson_category_image_size"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/s19_lesson_category_image_margin_left"
+                    android:layout_marginStart="@dimen/s19_lesson_category_image_margin_left"
+                    android:contentDescription="@null"
+                    android:src="@drawable/s19_lesson_category_practice" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/s19_lesson_category_text_margin"
+                    android:layout_marginStart="@dimen/s19_lesson_category_text_margin"
+                    android:layout_toEndOf="@+id/mImgPra"
+                    android:layout_toRightOf="@+id/mImgPra"
+                    android:maxLines="1"
+                    android:text="@string/common_module__practice"
+                    android:textColor="@color/s19_lesson_category_content_color_text_item"
+                    android:textSize="@dimen/s19_lesson_category_text_size" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

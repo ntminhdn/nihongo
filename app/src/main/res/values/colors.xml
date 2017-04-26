@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--App Theme-->
+    <color name="colorPrimary">#41c3fd</color>
+
+    <!--Todo hiện tại app sẽ không set lại màu của toolbar hệ thống.-->
+    <!--<color name="colorPrimaryDark">#3FB2FA</color>-->
+
+    <!--Custom View-->
+    <color name="default_background_color">@android:color/transparent</color>
+    <color name="default_progress_color">#33b5e5</color>
+    <color name="default_stroke_color">#33b5e5</color>
+    <color name="default_text_color">#333333</color>
+
+    <!--Begin Common-->
+    <color name="common_white">#ffffff</color>
+    <color name="common_black">#000000</color>
+    <color name="common_gray">#626262</color>
+    <color name="common_brown">#D9D9D9</color>
+    <color name="common_color_view_line">#ecf4fa</color>
+    <!-- END. -->
+
+    <!-- BEGIN: S01Login. -->
+    <color name="s01_login_color_text">#41c3fd</color>
+    <color name="s01_login_color_background">#80000000</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: S02Register. -->
+    <color name="s02_register_color_background_screen">#f7fbff</color>
+    <color name="s02_register_color_text">#41c3fd</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: S03Dashboard. -->
+    <color name="s03_dashboard_color_screen">#f7fbff</color>
+    <color name="s03_dashboard_color_text">#41c3fd</color>
+    <color name="s03_dashboard_color_text_day">#8B572A</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: S04UserProfile. -->
+    <color name="s04_user_profile_color_screen">#f7fbff</color>
+    <color name="s04_user_profile_text_color">#363636</color>
+    <color name="s04_user_profile_text_color_txt">#FF0A5B89</color>
+    <color name="s04_user_profile_text_color_header">#41c3fd</color>
+    <color name="s04_user_profile_text_color_user_code">#ea5255</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: S05NavigationMenu. -->
+    <color name="s05_navigation_menu_color_item">#41C3FD</color>
+    <color name="s05_navigation_menu_color_item_background">#10000000</color>
+    <color name="s05_navigation_menu_color_item_selected">#FF0A5B89</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: S06LessonList. -->
+    <color name="s06_lesson_list_color_background_lesson_list">#f7fbff</color>
+    <color name="s06_lesson_list_color_background_lesson_item">#ffffff</color>
+    <color name="s06_lesson_list_color_lesson_name">#1A2076</color>
+    <color name="s06_lesson_list_color_lesson_title">#59BAFC</color>
+    <color name="s06_lesson_list_color_lesson_status">#8B572A</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: S07LessonCategory. -->
+    <color name="s07_lesson_category_color_background_screen">#f7fbff</color>
+    <color name="s07_lesson_category_color_text_title">#8b572a</color>
+    <color name="s07_lesson_category_color_text_content">#8B572A</color>
+    <color name="s07_lesson_category_color_background_item_title">#a2ddf8</color>
+    <!-- END. -->
+
+    <!-- BEGIN: S08PreLesson. -->
+    <color name="s08_color_background_screen">#F7FBFF</color>
+    <color name="s08_color_background_button">#FEFEFE</color>
+    <color name="s08_color_button">#8B572A</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: S11PracticeList. -->
+    <color name="s11_practice_list_color_background">#f7fbff</color>
+    <color name="s11_practice_list_color_text">#41c3fd</color>
+    <color name="s11_practice_list_color_text_item">#8B572A</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: S12TrialTestDetail. -->
+    <color name="s12_trial_test_detail_color_background">#f7fbff</color>
+    <color name="s12_trial_test_detail_color_button_question">#363636</color>
+    <color name="s12_trial_test_detail_color_text">#41c3fd</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: S13Ranking. -->
+    <color name="s13_ranking_color_screen">#f7fbff</color>
+    <color name="s13_ranking_color_text">#41c3fd</color>
+    <color name="s13_ranking_color_item_list_one">#f5a623</color>
+    <color name="s13_ranking_color_indicator">#efefef</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: S14FlashCard. -->
+    <color name="s14_flash_cart_color_screen">#f7fbff</color>
+    <color name="s14_flash_cart_color_text">#41c3fd</color>
+    <color name="s14_flash_cart_color_text_position">#4a4a4a</color>
+    <color name="s14_flash_cart_color_text_romaji">#9b9b9b</color>
+    <color name="s14_flash_cart_color_text_mean">#363636</color>
+    <color name="s14_flash_cart_color_indicator">#efefef</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: S15KnowledgeList. -->
+    <color name="s15_knowledge_list_color_background">#f7fbff</color>
+    <color name="s15_knowledge_list_color_text">#41c3fd</color>
+    <color name="s15_knowledge_list_color_text_position">#4a4a4a</color>
+    <color name="s15_knowledge_list_color_text_romaji">#9b9b9b</color>
+    <color name="s15_knowledge_list_color_text_mean">#363636</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: S17TrialTestResult. -->
+    <color name="s17_trial_test_result_color_background">#f7fbff</color>
+    <color name="s17_trial_test_result_color_text">#41c3fd</color>
+    <color name="s17_trial_test_result_color_item_correct">#41C3FD</color>
+    <color name="s17_trial_test_result_color_item_fail">#60EA5255</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: S18Setting. -->
+    <color name="s18_setting_color_background_screen">#f7fbff</color>
+    <color name="s18_setting_color_text_view">#363636</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: S19LessonCategoryContent. -->
+    <color name="s19_lesson_category_content_color_screen">#f7fbff</color>
+    <color name="s19_lesson_category_content_color_text_header">#41c3fd</color>
+    <color name="s19_lesson_category_content_color_text_item">#8B572A</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: S20PracticeStarting. -->
+    <color name="s20_practice_starting_color_background">#f7fbff</color>
+    <color name="s20_practice_starting_color_text">#41c3fd</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: S21PracticeDetail. -->
+    <color name="s21_practice_detail_color_background">#f7fbff</color>
+    <color name="s21_practice_detail_color_button_question">#363636</color>
+    <color name="s21_practice_detail_color_text">#41c3fd</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: S22PracticeResult. -->
+    <color name="s22_practice_result_color_background">#f7fbff</color>
+    <color name="s22_practice_result_color_text">#41c3fd</color>
+    <color name="s22_practice_result_color_item_correct">#41C3FD</color>
+    <color name="s22_practice_result_color_item_fail">#60EA5255</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: S24TrialTestStarting. -->
+    <color name="s24_trial_test_starting_color_background">#f7fbff</color>
+    <color name="s24_trial_test_starting_color_text">#41c3fd</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: S25ResetPassword. -->
+    <color name="s25_reset_password_background">#f7fbff</color>
+    <color name="s25_reset_password_text_color">#41c3fd</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: S26TermsOfService. -->
+    <color name="s26_terms_of_service_color_screen_background">#f7fbff</color>
+    <color name="s26_terms_of_service_color_text">#41c3fd</color>
+
+    <!-- BEGIN: S27GrammarListScreen. -->
+    <color name="s27_grammar_list_color_screen">#f7fbff</color>
+    <color name="s27_grammar_list_color_text">#41c3fd</color>
+    <color name="s27_grammar_list_color_view_line">#cecece</color>
+    <color name="s27_grammar_list_color_text_item_content">#363636</color>
+    <color name="s27_grammar_list_color_text_item">#10539E</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: DialogHelp. -->
+    <color name="s29_about_us_text_color_version">#8B572A</color>
+    <color name="s29_about_us_text_color_content">#333333</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: DialogHelp. -->
+    <color name="dialog_help_color_background_screen">#20000000</color>
+    <color name="dialog_help_color_text_content">#363636</color>
+
+    <!-- END. -->
+
+    <!-- BEGIN: Transparent. -->
+    <color name="transparent">#55000000</color>
+    <!-- END. -->
+</resources>

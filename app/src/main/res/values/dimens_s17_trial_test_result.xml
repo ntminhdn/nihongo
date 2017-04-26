@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BEGIN: S17 TrialTestResult. -->
+    <dimen name="s17_trial_test_result_layout_result_height">210dp</dimen>
+    <dimen name="s17_trial_test_result_padding">15dp</dimen>
+    <dimen name="s17_trial_test_result_text_size">18sp</dimen>
+    <dimen name="s17_trial_test_result_size_oval">90dp</dimen>
+    <dimen name="s17_trial_test_result_bad_height">140dp</dimen>
+    <dimen name="s17_trial_test_result_bad_wight">50dp</dimen>
+    <dimen name="s17_trial_test_result_total_text_size">22sp</dimen>
+    <dimen name="s17_trial_test_result_text_size_item_list">20sp</dimen>
+    <dimen name="s17_trial_test_result_icon_sound_size">12dp</dimen>
+    <dimen name="s17_trial_test_result_item_list_text_margin">25dp</dimen>
+    <dimen name="s17_trial_test_result_item_list_text_size_medium">14sp</dimen>
+    <dimen name="s17_trial_test_result_item_list_padding">3dp</dimen>
+    <dimen name="s17_trial_test_result_text_view_correct_margin">6dp</dimen>
+    <dimen name="s17_trial_test_result_text_view_total_margin">6dp</dimen>
+    <dimen name="s17_trial_test_result_text_view_try_again_margin">10dp</dimen>
+    <dimen name="s17_trial_test_result_view_center_height">0.1dp</dimen>
+
+    <!-- END. -->
+</resources>

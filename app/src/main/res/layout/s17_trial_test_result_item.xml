@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:id="@+id/mViewContent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/mViewPress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/s17_trial_test_result_bg_item"
+        android:paddingBottom="@dimen/item_knowledge_padding_vertical"
+        android:paddingLeft="@dimen/s17_trial_test_result_padding"
+        android:paddingRight="@dimen/s17_trial_test_result_padding"
+        android:paddingTop="@dimen/s17_trial_test_result_padding"
+        tool:ignore="UselessParent">
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/mImgSound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_sound"
+            android:contentDescription="@null"
+            android:padding="@dimen/s17_trial_test_result_icon_sound_size" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/s17_trial_test_result_item_list_padding"
+            android:layout_marginStart="@dimen/s17_trial_test_result_item_list_padding"
+            android:layout_toEndOf="@+id/mImgSound"
+            android:layout_toLeftOf="@+id/mTvTime"
+            android:layout_toRightOf="@+id/mImgSound"
+            android:layout_toStartOf="@+id/mTvTime"
+            android:gravity="center_vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/mTvQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:textColor="@color/common_black"
+                android:textSize="@dimen/s17_trial_test_result_text_size_item_list"
+                tool:text="Title" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/mTvAnswer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mTvQuestion"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/common_black"
+                android:textSize="@dimen/s17_trial_test_result_item_list_text_size_medium"
+                tool:text="vietNameVietName" />
+        </RelativeLayout>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/common_black"
+            android:textSize="@dimen/s17_trial_test_result_text_size"
+            tool:ignore="RelativeOverlap"
+            tool:text="2s" />
+    </RelativeLayout>
+</RelativeLayout>

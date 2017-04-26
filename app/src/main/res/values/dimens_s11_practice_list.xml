@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BEGIN: S11PracticeList. -->
+    <dimen name="s11_practice_list_size_text_title">18sp</dimen>
+    <dimen name="s11_practice_list_title_padding">15dp</dimen>
+    <dimen name="s11_practice_list_margin_top">35dp</dimen>
+    <dimen name="s11_practice_list_item_height">95dp</dimen>
+    <dimen name="s11_practice_list_item_margin_top">15dp</dimen>
+    <dimen name="s11_practice_list_item_image_size">35dp</dimen>
+    <dimen name="s11_practice_list_item_image_margin_left">20dp</dimen>
+    <dimen name="s11_practice_list_item_text_margin">10dp</dimen>
+    <dimen name="s11_practice_list_item_top_layout_margin">15dp</dimen>
+    <dimen name="s11_practice_list_item_armorial_padding_right">20dp</dimen>
+
+    <!-- END. -->
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_auth__content_warning__confirm_logout">Are you sure you want to logout?</string>
+    <string name="common_auth__lbl_confirm_password">Confirm Password</string>
+    <string name="common_auth__lbl_email">Email</string>
+    <string name="common_auth__lbl_password">Password</string>
+    <string name="common_auth__lbl_reset_password">Reset Password</string>
+    <string name="common_auth__lbl_user_code">User Code</string>
+    <string name="common_auth__lbl_username">Username</string>
+    <string name="common_auth__txt_confirm_password__validation_max_length">The Confirm Password should be no more than 20 characters long.</string>
+    <string name="common_auth__txt_confirm_password__validation_min_length">The Confirm Password should be at least 6 characters long.</string>
+    <string name="common_auth__txt_confirm_password__validation_not_match">The Password and Confirm Password should be the same.</string>
+    <string name="common_auth__txt_confirm_password__validation_required">The Confirm Password is required.</string>
+    <!-- Không đúng với RegEx cho phép. -->
+    <string name="common_auth__txt_email__validation_invalid">The Email is invalid.</string>
+    <string name="common_auth__txt_email__validation_max_length">The Email should be no more than 100 characters long.</string>
+    <string name="common_auth__txt_email__validation_min_length">The Email should be at least 5 characters long.</string>
+    <string name="common_auth__txt_email__validation_required">The Email is required.</string>
+    <string name="common_auth__txt_password__validation_max_length">The Password should be no more than 20 characters long.</string>
+    <string name="common_auth__txt_password__validation_min_length">The Password should be at least 6 characters long.</string>
+    <string name="common_auth__txt_password__validation_required">The Password is required.</string>
+    <string name="common_auth__txt_password__validation_too_long">Password is too long.</string>
+    <string name="common_auth__txt_password__validation_too_short">Password is too short.</string>
+    <!-- Không đúng với RegEx cho phép. -->
+    <string name="common_auth__txt_username__validation_invalid">The Username is invalid.</string>
+    <string name="common_auth__txt_username__validation_max_length">The Username should be no more than 20 characters long.</string>
+    <string name="common_auth__txt_username__validation_min_length">The Username should be at least 5 characters long.</string>
+    <string name="common_auth__txt_username__validation_required">The Username is required.</string>
+    <string name="common_auth__txt_username__validation_too_long">The Username is too long.</string>
+    <string name="common_auth__txt_username__validation_too_short">The Username is too short.</string>
+
+</resources>

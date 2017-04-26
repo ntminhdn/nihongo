@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="s01_login__btn_facebook_login">Login with Facebook</string>
+    <string name="s01_login__btn_login">Login</string>
+    <string name="s01_login__content_error__login_failure">Login failed.</string>
+    <string name="s01_login__lbl_register">Register</string>
+    <string name="s01_login__lbl_reset_password">Reset Password</string>
+
+</resources>

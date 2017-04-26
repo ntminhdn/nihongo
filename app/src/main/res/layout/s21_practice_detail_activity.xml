@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/s21_practice_detail_color_background"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/mViewToolbar"
+        layout="@layout/toolbar_custom_view" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mTvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mViewToolbar"
+        android:layout_toLeftOf="@+id/mTvPosition"
+        android:layout_toStartOf="@+id/mTvPosition"
+        android:maxLines="2"
+        android:padding="@dimen/s21_practice_detail_title_padding"
+        android:textColor="@color/s21_practice_detail_color_text"
+        android:textSize="@dimen/s21_practice_detail_text_size"
+        tools:text="Basic/ word/ knowledge" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mTvPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/mViewToolbar"
+        android:padding="@dimen/s21_practice_detail_title_padding"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/s21_practice_detail_text_size"
+        tools:text="20/30" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/mBtnAnswer1"
+        android:layout_below="@+id/mImgTemporary"
+        android:gravity="center">
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/mImgSound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/s21_practice_detail_title_padding"
+            android:background="@drawable/ic_sound"
+            android:contentDescription="@null"
+            android:padding="@dimen/s21_practice_detail_sound_padding"
+            android:visibility="gone" />
+
+        <com.honkidenihongo.pre.gui.widget.AutoResizeTextView
+            android:id="@+id/mTvQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="@dimen/s21_practice_detail_text_view_question_padding"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/s21_practice_detail_text_question_size"
+            tools:text="20/30" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/mImgStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mTvTitle"
+        android:layout_marginLeft="@dimen/s21_practice_detail_title_padding"
+        android:layout_marginStart="@dimen/s21_practice_detail_title_padding"
+        android:contentDescription="@null"
+        android:src="@drawable/s21_practice_detail_status" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/mImgTemporary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mTvTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/s21_practice_detail_title_padding"
+        android:layout_marginStart="@dimen/s21_practice_detail_title_padding"
+        android:contentDescription="@null"
+        android:src="@drawable/s21_practice_detail_status"
+        android:visibility="invisible" />
+
+    <com.honkidenihongo.pre.gui.widget.AutoResizeTextView
+        android:id="@+id/mBtnAnswer1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/s21_practice_detail_height_button"
+        android:layout_above="@+id/mBtnAnswer2"
+        android:layout_marginLeft="@dimen/s21_practice_detail_button_margin"
+        android:layout_marginRight="@dimen/s21_practice_detail_button_margin"
+        android:background="@drawable/s21_practice_detail_btn"
+        android:gravity="center"
+        android:textColor="@color/s21_practice_detail_color_button_question"
+        android:textSize="@dimen/s21_practice_detail_text_size" />
+
+    <com.honkidenihongo.pre.gui.widget.AutoResizeTextView
+        android:id="@+id/mBtnAnswer2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/s21_practice_detail_height_button"
+        android:layout_above="@+id/mBtnAnswer3"
+        android:layout_marginLeft="@dimen/s21_practice_detail_button_margin"
+        android:layout_marginRight="@dimen/s21_practice_detail_button_margin"
+        android:layout_marginTop="@dimen/s21_practice_detail_title_padding"
+        android:background="@drawable/s21_practice_detail_btn"
+        android:gravity="center"
+        android:textColor="@color/s21_practice_detail_color_button_question"
+        android:textSize="@dimen/s21_practice_detail_text_size" />
+
+    <com.honkidenihongo.pre.gui.widget.AutoResizeTextView
+        android:id="@+id/mBtnAnswer3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/s21_practice_detail_height_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/s21_practice_detail_title_padding"
+        android:layout_marginLeft="@dimen/s21_practice_detail_button_margin"
+        android:layout_marginRight="@dimen/s21_practice_detail_button_margin"
+        android:layout_marginTop="@dimen/s21_practice_detail_title_padding"
+        android:background="@drawable/s21_practice_detail_btn"
+        android:gravity="center"
+        android:textColor="@color/s21_practice_detail_color_button_question"
+        android:textSize="@dimen/s21_practice_detail_text_size" />
+
+</RelativeLayout>

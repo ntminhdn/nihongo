@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/s04_user_profile_color_screen"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/s04_user_profile_color_screen"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvHeader"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/s04_user_profile_header_size"
+            android:background="@color/s04_user_profile_text_color_header" />
+
+        <RelativeLayout
+            android:id="@+id/mRlAvatar"
+            android:layout_width="@dimen/s04_user_profile_avatar_size"
+            android:layout_height="@dimen/s04_user_profile_avatar_size"
+            android:layout_marginLeft="@dimen/s04_user_profile_layout_margin_30"
+            android:layout_marginStart="@dimen/s04_user_profile_layout_margin_30">
+
+            <com.honkidenihongo.pre.gui.widget.CircleImageView
+                android:id="@+id/mImgAvatar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/s04_user_profile_image_avatar_margin"
+                android:layout_marginRight="@dimen/s04_user_profile_image_avatar_margin"
+                android:background="@android:color/transparent"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_avatar_default" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/mImgCamera"
+                android:layout_width="@dimen/s04_user_profile_image_camera_size"
+                android:layout_height="@dimen/s04_user_profile_image_camera_size"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null"
+                android:src="@drawable/s04_user_profile_ic_camera" />
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/s04_user_profile_lbl_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mRlAvatar"
+            android:layout_marginLeft="@dimen/s04_user_profile_layout_margin_30"
+            android:layout_marginRight="@dimen/s04_user_profile_layout_margin_30"
+            android:layout_marginTop="@dimen/s04_user_profile_layout_margin_60"
+            android:text="@string/common_auth__lbl_username"
+            android:textColor="@color/s04_user_profile_text_color"
+            android:textSize="@dimen/s04_user_profile_text_size"
+            tools:ignore="SpUsage" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/s04_user_profile_txt_username"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_below="@+id/s04_user_profile_lbl_username"
+            android:layout_marginLeft="@dimen/s04_user_profile_layout_margin_30"
+            android:layout_marginRight="@dimen/s04_user_profile_layout_margin_30"
+            android:layout_marginTop="@dimen/s04_user_profile_edit_text_margin_top"
+            android:background="@drawable/s04_user_profile_edit_text"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/s04_user_profile_layout_margin_10"
+            android:paddingRight="@dimen/s04_user_profile_layout_margin_10"
+            android:textColor="@color/s04_user_profile_text_color_txt"
+            android:textSize="@dimen/s04_user_profile_text_size"
+            tools:ignore="SpUsage"
+            tools:text="Binh" />
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvUserCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/s04_user_profile_txt_username"
+            android:layout_marginLeft="@dimen/s04_user_profile_layout_margin_30"
+            android:layout_marginRight="@dimen/s04_user_profile_layout_margin_30"
+            android:layout_marginTop="@dimen/s04_user_profile_edit_text_margin_top"
+            android:text="@string/common_auth__lbl_user_code"
+            android:textColor="@color/s04_user_profile_text_color"
+            android:textSize="@dimen/s04_user_profile_text_size"
+            tools:ignore="SpUsage" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mEdtUserCode"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_below="@+id/mTvUserCode"
+            android:layout_marginLeft="@dimen/s04_user_profile_layout_margin_30"
+            android:layout_marginRight="@dimen/s04_user_profile_layout_margin_30"
+            android:layout_marginTop="@dimen/s04_user_profile_edit_text_margin_top"
+            android:background="@drawable/s04_user_profile_edit_text"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingLeft="@dimen/s04_user_profile_layout_padding_15"
+            android:paddingRight="@dimen/s04_user_profile_layout_padding_15"
+            android:textColor="@color/s04_user_profile_text_color_user_code"
+            android:textSize="@dimen/s04_user_profile_text_size_user_code"
+            android:textStyle="bold"
+            tools:ignore="SpUsage"
+            tools:text="ab123ekdjas2das" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mEdtUserCode"
+            android:layout_marginLeft="@dimen/s04_user_profile_layout_margin_30"
+            android:layout_marginRight="@dimen/s04_user_profile_layout_margin_30"
+            android:layout_marginTop="@dimen/s04_user_profile_edit_text_margin_top"
+            android:text="@string/common_auth__lbl_email"
+            android:textColor="@color/s04_user_profile_text_color"
+            android:textSize="@dimen/s04_user_profile_text_size"
+            tools:ignore="SpUsage" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mEdtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_below="@+id/mTvEmail"
+            android:layout_marginLeft="@dimen/s04_user_profile_layout_margin_30"
+            android:layout_marginRight="@dimen/s04_user_profile_layout_margin_30"
+            android:layout_marginTop="@dimen/s04_user_profile_edit_text_margin_top"
+            android:background="@drawable/s04_user_profile_edit_text"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/s04_user_profile_layout_margin_10"
+            android:paddingRight="@dimen/s04_user_profile_layout_margin_10"
+            android:textColor="@color/s04_user_profile_text_color_txt"
+            android:textSize="@dimen/s04_user_profile_text_size"
+            tools:ignore="SpUsage"
+            tools:text="Binh" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvFacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mEdtEmail"
+            android:layout_marginLeft="@dimen/s04_user_profile_layout_margin_30"
+            android:layout_marginRight="@dimen/s04_user_profile_layout_margin_30"
+            android:layout_marginTop="@dimen/s04_user_profile_layout_margin_30"
+            android:text="@string/s04_user_profile__lbl_facebook"
+            android:textColor="@color/s04_user_profile_text_color"
+            android:textSize="@dimen/s04_user_profile_text_size"
+            android:visibility="invisible"
+            tools:ignore="SpUsage" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/mSwitchFacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/mEdtEmail"
+            android:layout_marginEnd="@dimen/s04_user_profile_layout_margin_30"
+            android:layout_marginRight="@dimen/s04_user_profile_layout_margin_30"
+            android:layout_marginTop="@dimen/s04_user_profile_layout_margin_30"
+            android:visibility="invisible" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mEdtFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_below="@+id/mTvFacebook"
+            android:layout_marginLeft="@dimen/s04_user_profile_layout_margin_30"
+            android:layout_marginRight="@dimen/s04_user_profile_layout_margin_30"
+            android:layout_marginTop="@dimen/s04_user_profile_edit_text_margin_top"
+            android:background="@drawable/s04_user_profile_edit_text"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/s04_user_profile_layout_margin_10"
+            android:paddingRight="@dimen/s04_user_profile_layout_margin_10"
+            android:textColor="@color/s04_user_profile_text_color_txt"
+            android:textSize="@dimen/s04_user_profile_text_size"
+            android:visibility="invisible"
+            tools:ignore="SpUsage"
+            tools:text="Binh" />
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_module__about_us">Về Chúng Tôi</string>
+    <string name="common_module__dashboard">Bảng Thông Tin</string>
+    <string name="common_module__flashcard">Flashcard</string>
+    <string name="common_module__grammar">Ngữ Pháp</string>
+    <string name="common_module__knowledge">Kiến Thức</string>
+    <string name="common_module__lesson_list">Danh Sách Bài Học</string>
+    <string name="common_module__logout">Đăng Xuất</string>
+    <string name="common_module__practice">Luyện Tập</string>
+    <string name="common_module__register">Đăng Ký</string>
+    <string name="common_module__reset_password">Đặt Lại Mật Khẩu</string>
+    <string name="common_module__setting">Thiết Đặt</string>
+    <string name="common_module__take_a_test">Làm Bài</string>
+    <string name="common_module__testing__result">Kết Quả</string>
+    <string name="common_module__testing__trial_title">Trắc Nghiệm</string>
+    <string name="common_module__user_profile">Thông Tin Cá Nhân</string>
+    <string name="common_module__user_ranking">Xếp Hạng</string>
+
+</resources>

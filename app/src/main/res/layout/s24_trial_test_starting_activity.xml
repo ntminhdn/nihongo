@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/s24_trial_test_starting_color_background"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/mViewToolbar"
+        layout="@layout/toolbar_custom_view" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mTvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mViewToolbar"
+        android:padding="@dimen/s24_trial_test_starting_title_padding"
+        android:textColor="@color/s24_trial_test_starting_color_text"
+        android:textSize="@dimen/s24_trial_test_starting_text_size"
+        tools:text="Basic/ word/ knowledge" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mTvTitleContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mViewStarting"
+        android:layout_below="@+id/mTvTitle"
+        android:gravity="center"
+        android:paddingLeft="@dimen/s24_trial_test_starting_title_padding"
+        android:paddingRight="@dimen/s24_trial_test_starting_title_padding"
+        android:text="@string/common_app__testing__lbl_starting_description"
+        android:textColor="@color/s24_trial_test_starting_color_text"
+        android:textSize="@dimen/s24_trial_test_starting_text_size" />
+
+    <RelativeLayout
+        android:id="@+id/mViewStarting"
+        android:layout_width="@dimen/s24_trial_test_starting_image_size"
+        android:layout_height="@dimen/s24_trial_test_starting_image_size"
+        android:layout_centerInParent="true"
+        android:background="@drawable/s24_trial_test_starting_bg_circle" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/mImgStarting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null"
+        android:src="@drawable/s24_trial_test_starting_icon" />
+
+</RelativeLayout>

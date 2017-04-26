@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="s11_practice_list__question_type_text__hiragana_romaji">Hiragana - Romaji</string>
+    <string name="s11_practice_list__question_type_text__ja_nlang">Japanese - English</string>
+    <string name="s11_practice_list__question_type_text__katakana_romaji">Katakana - Romaji</string>
+    <string name="s11_practice_list__question_type_text__nlang_ja">English - Japanese</string>
+    <string name="s11_practice_list__question_type_text__romaji_hiragana">Romaji - Hiragana</string>
+    <string name="s11_practice_list__question_type_text__romaji_katakana">Romaji - Katakana</string>
+    <string name="s11_practice_list__question_type_voice__hiragana_hiragana">[Listen] Hiragana - Hiragana</string>
+    <string name="s11_practice_list__question_type_voice__hiragana_romaji">[Listen] Hiragana - Romaji</string>
+    <string name="s11_practice_list__question_type_voice__ja_ja">[Listen] Japanese - Japanese</string>
+    <string name="s11_practice_list__question_type_voice__ja_nlang">[Listen] Japanese - English</string>
+    <string name="s11_practice_list__question_type_voice__katakana_katakana">[Listen] Katakana - Katakana</string>
+    <string name="s11_practice_list__question_type_voice__katakana_romaji">[Listen] Katakana - Romaji</string>
+
+</resources>

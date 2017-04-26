@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="s03_dashboard__day_friday">Fri</string>
+    <string name="s03_dashboard__day_monday">Mon</string>
+    <string name="s03_dashboard__day_saturday">Sat</string>
+    <string name="s03_dashboard__day_sunday">Sun</string>
+    <string name="s03_dashboard__day_thursday">Thu</string>
+    <string name="s03_dashboard__day_tuesday">Tue</string>
+    <string name="s03_dashboard__day_wednesday">Wed</string>
+    <string name="s03_dashboard__last_week">Last week</string>
+    <!-- Sample: Today, you have learned [2 hours 15 minutes] -->
+    <string name="s03_dashboard__learning_information">Today, you have learned</string>
+
+</resources>

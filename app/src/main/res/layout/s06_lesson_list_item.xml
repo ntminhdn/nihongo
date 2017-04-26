@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/s06_lesson_list_item_height"
+    android:layout_marginBottom="@dimen/s06_lesson_list_item_margin"
+    android:layout_marginTop="@dimen/s06_lesson_list_item_margin"
+    android:background="@drawable/s06_lesson_list_bg_item">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/s06_lesson_list_lbl_lesson_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/s06_lesson_list_photo_download_margin"
+        android:layout_marginStart="@dimen/s06_lesson_list_photo_download_margin"
+        android:textColor="@color/s06_lesson_list_color_lesson_name"
+        android:textSize="@dimen/s06_lesson_list_text_size_name"
+        tools:ignore="RelativeOverlap"
+        tools:text="Unit 1" />
+
+    <com.honkidenihongo.pre.gui.widget.AutoResizeTextView
+        android:id="@+id/s06_lesson_list_lbl_lesson_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/s06_lesson_list_photo_download_margin"
+        android:layout_marginStart="@dimen/s06_lesson_list_photo_download_margin"
+        android:layout_toEndOf="@+id/s06_lesson_list_lbl_lesson_name"
+        android:layout_toLeftOf="@+id/s06_lesson_list_item_img_lesson_status"
+        android:layout_toRightOf="@+id/s06_lesson_list_lbl_lesson_name"
+        android:layout_toStartOf="@+id/s06_lesson_list_item_img_lesson_status"
+        android:maxLines="2"
+        android:textColor="@color/s06_lesson_list_color_lesson_title"
+        android:textSize="@dimen/s06_lesson_list_text_size_name"
+        tools:ignore="RelativeOverlap"
+        tools:text="Unit 1" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/s06_lesson_list_item_img_lesson_status"
+        android:layout_width="@dimen/s06_lesson_list_photo_download"
+        android:layout_height="@dimen/s06_lesson_list_photo_download"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/s06_lesson_list_photo_download_margin"
+        android:layout_marginRight="@dimen/s06_lesson_list_photo_download_margin"
+        android:contentDescription="@null"
+        android:src="@drawable/s06_lesson_list_item_ic_downloading" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/s06_lesson_list_item_lbl_lesson_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="@dimen/s06_lesson_list_text_percent_margin_right"
+        android:layout_marginRight="@dimen/s06_lesson_list_text_percent_margin_right"
+        android:textColor="@color/s06_lesson_list_color_lesson_status"
+        android:textSize="@dimen/s06_lesson_list_text_size_percent"
+        tools:text="Downloading..." />
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_help__s03_dashboard__title">Welcome you to Honki de Nihongo app</string>
+    <string name="common_help__s03_dashboard__content">Click the icon 三 on the upper left side of the screen to start to learn Japanese.\n\nPlease select the learning content from the Lesson List.</string>
+    <string name="common_help__s04_user_profile__title">Profile</string>
+    <string name="common_help__s04_user_profile__content">Username: The account name is displayed in form of user \'s name in the app.\nUser Code: The code is used in another service and data management.\nEmail: The mail address which was registered.</string>
+    <string name="common_help__s05_navigation_menu__title">Menu</string>
+    <string name="common_help__s05_navigation_menu__content">Dashboard: Confirm the learning time in the past. Learn as planned.\nLesson List: Select Unit. Units are corresponding to Minna no Nihongo textbook.\nProfile: Registration information of users. The User Code will be used in another service.\nSetting: Users can select language. Select to display/hide this pop-up explanation.\nAbout Us: The information about the version, Terms of Service.\nLogout: Logging out of the app.</string>
+    <string name="common_help__s07_lesson_category__title">How to learn Unit</string>
+    <string name="common_help__s07_lesson_category__content">1. In Word and Sentence parts of Basic level, users will learn basic vocabularies and sentences.\n2. In Word and Sentence parts of Advance level, users will learn vocabularies and sentences commonly used in Japanese daily life and working environment.\n3. When finishing learning words and sentences of  Basic level, users can practice quickly answering in Trial part.</string>
+    <string name="common_help__s11_practice_list__title">How to learn Practice part</string>
+    <string name="common_help__s11_practice_list__content">1. Look at Japanese to practice answering according to Vietnamese meaning.\n2. Look at Vietnamese to practice answering in Japanese.\n3. Listen to Japanese sound to practice answering in Japanese.\n4. Listen to Japanese sound to practice answering according toVietnamese meaning.</string>
+    <string name="common_help__s13_user_ranking__title">Ranking of User</string>
+    <string name="common_help__s13_user_ranking__content">Make effort to achieve high ranking with the score calculated according to the correct answers and answer time.</string>
+    <string name="common_help__s14_flashcard__word__title">How to use Flashcard of Word</string>
+    <string name="common_help__s14_flashcard__word__content">The front side of the flashcard is in form of Japanese, the back side is in form of Vietnamese. Moreover, users can confirm by sound.\n\nAll: Check all vocabularies from the beginning to the end.\nNotes: For remembered words, flip to the left; flip to the right for unremembered ones, or words which users want to check again.</string>
+    <string name="common_help__s14_flashcard__sentence__title">How to use Flashcard of Sentence</string>
+    <string name="common_help__s14_flashcard__sentence__content">The front side of the flashcard is in form of Japanese, the back side is in form of Vietnamese. Moreover, users can confirm by sound.\n\nAll: Check all of  sentences from the beginning to the end.\nNotes: For remembered sentences, flip to the left; flip to the right for unremembered ones, or sentences which users want to check again.</string>
+    <string name="common_help__s15_knowledge_list__word__title">Explanation of Word</string>
+    <string name="common_help__s15_knowledge_list__word__content">When tapping a word, users can see explanation flashcard of that word.</string>
+    <string name="common_help__s15_knowledge_list__sentence__title">Explanation of Sentence</string>
+    <string name="common_help__s15_knowledge_list__sentence__content">When tapping a sentence, users can see explanation flashcard of that sentence.</string>
+    <string name="common_help__s18_setting__title">Setting</string>
+    <string name="common_help__s18_setting__content">Language: Please select the language to explain the app.\n\nHelp: Please select to display/hide the explanation pop-up in each page.</string>
+    <string name="common_help__s19_lesson_category_content__word__title">How to learn Word part</string>
+    <string name="common_help__s19_lesson_category_content__word__content">1. Knowledge: Confirm user \'s knowledge by using list of words and their explanations.\n2. Flashcard: Use flashcards to practice new words effectively.\n3. Practice: Confirm user \'s understanding with 3 choices.</string>
+    <string name="common_help__s19_lesson_category_content__sentence__title">How to learn Sentence part</string>
+    <string name="common_help__s19_lesson_category_content__sentence__content">1. Grammar: Confirm grammar parts which will be practiced in this unit.(only available for Basic level)\n2. Knowledge: Confirm user \'s knowledge by using list of sentences and their explanations.\n3. Flashcard: Use flashcards to practice new sentences effectively.\n4. Practice: Confirm user \'s understanding with 3 choices.</string>
+    <string name="common_help__s24_trial_test_starting__title">How to learn Trial part</string>
+    <string name="common_help__s24_trial_test_starting__content">Practice answering 60 questions quickly; in word and sentence part of Basic level, there are 3 choices for each question.Try to select a large number of correct answers in the shortest time to get the high score.</string>
+    <string name="common_help__s27_grammar_list__title">Grammar</string>
+    <string name="common_help__s27_grammar_list__content">This has function of explaining the grammar structures learned in the unit.\nTap items to confirm detail explanation.</string>
+    <string name="common_help__s28_team_ranking__title">Ranking of team</string>
+    <string name="common_help__s28_team_ranking__content">Day Ranking and Week Ranking of Trial part.\nMake effort to achieve the highest Ranking with the score calculated based on the correct answers and answer time.</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="s01_login__btn_facebook_login">Đăng nhập với Facebook</string>
+    <string name="s01_login__btn_login">Đăng nhập</string>
+    <string name="s01_login__content_error__login_failure">Đăng nhập thất bại.</string>
+    <string name="s01_login__lbl_register">Đăng ký</string>
+    <string name="s01_login__lbl_reset_password">Đặt lại Mật Khẩu</string>
+
+</resources>

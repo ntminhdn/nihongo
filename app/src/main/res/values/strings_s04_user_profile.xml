@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="s04_user_profile__content_error__update_avatar_failure">Update the Avatar failed.</string>
+    <string name="s04_user_profile__lbl_facebook">Facebook</string>
+
+</resources>

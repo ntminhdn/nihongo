@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/s03_dashboard_color_screen"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/s03_dashboard_title_margin_top"
+            android:gravity="center"
+            android:text="@string/common_module__dashboard"
+            android:textColor="@color/s03_dashboard_color_text"
+            android:textSize="@dimen/s03_dashboard_title_size"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/mImgLight"
+            android:layout_width="@dimen/s03_dashboard_img_light_wight"
+            android:layout_height="@dimen/s03_dashboard_img_light_height"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/s03_dashboard_img_light_margin_top"
+            android:contentDescription="@null"
+            android:src="@drawable/s03_dashboard_icon_light" />
+
+        <!--Todo dùng cho version sau chuyển view parent của nó thành LinearLayout.-->
+        <!--<RelativeLayout-->
+        <!--android:id="@+id/mViewContent"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/s03_dashboard_view_content_height"-->
+        <!--android:layout_marginLeft="@dimen/s03_dashboard_view_content_margin"-->
+        <!--android:layout_marginRight="@dimen/s03_dashboard_view_content_margin"-->
+        <!--android:layout_marginTop="@dimen/s03_dashboard_view_content_top"-->
+        <!--android:background="@drawable/s03_dashboard_bg_display">-->
+
+        <!--</RelativeLayout>-->
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/mLlDayView"
+            android:layout_marginLeft="@dimen/s03_dashboard_view_content_margin"
+            android:layout_marginRight="@dimen/s03_dashboard_view_content_margin"
+            android:layout_marginTop="@dimen/s03_dashboard_title_margin_top"
+            android:text="@string/s03_dashboard__last_week"
+            android:textColor="@color/s03_dashboard_color_text"
+            android:textSize="@dimen/s03_dashboard_title_size"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/mLlDayView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/s03_dashboard_img_light_wight"
+            android:orientation="horizontal"
+            android:padding="@dimen/s03_dashboard_view_day_padding">
+
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

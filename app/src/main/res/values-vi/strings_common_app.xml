@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_app__category__pre_common">Hội Thoại Hàng Ngày</string>
+    <string name="common_app__category__pre_hiragana">Hiragana</string>
+    <string name="common_app__category__pre_katakna">Katakana</string>
+    <string name="common_app__category__pre_number">Số Đếm</string>
+    <string name="common_app__category__unit_sentence">Câu Văn</string>
+    <string name="common_app__category__unit_word">Từ Vựng</string>
+    <!-- Tên của bài học mở đầu (Pre Lesson). -->
+    <string name="common_app__lesson_type__pre">Bài mở đầu</string>
+    <!-- Tên của Lesson từ bài 1 trở đi. -->
+    <string name="common_app__lesson_type__unit">Bài</string>
+    <string name="common_app__level__advance">Nâng Cao</string>
+    <string name="common_app__level__basic">Cơ Bản</string>
+    <!-- App name hiển thị ở màn hình ứng dụng trên mobile. Sẽ thay đổi theo ngôn ngữ máy. -->
+    <string name="common_app__name">Honki de Nihongo - Pre</string>
+    <string name="common_app__romaji">Romaji</string>
+    <string name="common_app__testing__lbl_starting_description">Chọn câu trả lời đúng từ 3 phương án.</string>
+    <string name="common_app__time__this_month">Tháng này</string>
+    <string name="common_app__time__this_week">Tuần này</string>
+    <string name="common_app__time__this_year">Năm nay</string>
+    <string name="common_app__time__today">Hôm nay</string>
+
+</resources>

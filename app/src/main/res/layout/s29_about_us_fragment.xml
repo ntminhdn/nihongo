@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/s26_terms_of_service_color_screen_background"
+    android:gravity="center_horizontal"
+    android:padding="@dimen/s29_about_us_screen_padding">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/mImgLogo"
+        android:layout_width="@dimen/s29_about_us_logo_width_height"
+        android:layout_height="@dimen/s29_about_us_logo_width_height"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@null"
+        android:src="@mipmap/ic_logo_app" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mTvAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mImgLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/s29_about_us_view_margin_top"
+        android:gravity="center"
+        android:text="@string/common_app__name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/s26_terms_of_service_text_size" />
+
+    <LinearLayout
+        android:id="@+id/mViewVersionCurrent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mTvAppName"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/s29_about_us__lbl_version"
+            android:textColor="@color/s29_about_us_text_color_content" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvVersionCurrent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textColor="@color/s29_about_us_text_color_version"
+            tools:text="1.0.2" />
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/mBtnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mViewVersionCurrent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/s26_terms_of_service_button_margin"
+        android:background="@drawable/s26_term_of_service_bg_button"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/common_text__update"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/mViewVersionLater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mBtnUpdate"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvVersionLater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/s29_about_us__lbl_latest_version"
+            android:textColor="@color/s29_about_us_text_color_content" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvVersionLaterName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/s29_about_us_text_color_version"
+            tools:text="2.0" />
+
+    </LinearLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mTvTerm"
+        android:layout_below="@+id/mViewVersionLater"
+        android:background="@android:color/transparent"
+        android:fadeScrollbars="false"
+        android:scrollbars="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvDeception"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mTvVersionLater"
+            android:layout_centerHorizontal="true"
+            android:lineSpacingExtra="1.5dp"
+            android:textColor="@android:color/black"
+            tools:text="2.0" />
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mTvTerm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/s26_terms_of_service__title"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/s26_terms_of_service_text_size" />
+</RelativeLayout>

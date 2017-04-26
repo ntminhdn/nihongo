@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/s17_trial_test_result_color_background"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/mViewToolbar"
+        layout="@layout/toolbar_custom_view" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mTvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/s17_trial_test_result_padding"
+        android:textColor="@color/s17_trial_test_result_color_text"
+        android:textSize="@dimen/s17_trial_test_result_text_size"
+        tools:text="Basic/ word/ knowledge" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/s17_trial_test_result_layout_result_height"
+                android:paddingLeft="@dimen/s17_trial_test_result_padding"
+                android:paddingRight="@dimen/s17_trial_test_result_padding">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/mTvPoint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s17_trial_test_result__lbl_point"
+                    android:textColor="@color/s17_trial_test_result_color_text"
+                    android:textSize="@dimen/s17_trial_test_result_text_size" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/mTvPointNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/s17_trial_test_result_item_list_padding"
+                    android:layout_marginStart="@dimen/s17_trial_test_result_item_list_padding"
+                    android:layout_toEndOf="@+id/mTvPoint"
+                    android:layout_toRightOf="@+id/mTvPoint"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="@dimen/s17_trial_test_result_text_size"
+                    tools:text="100" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/mTvRanking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/mTvRankingNumber"
+                    android:layout_toStartOf="@+id/mTvRankingNumber"
+                    android:text="@string/s17_trial_test_result__lbl_rank"
+                    android:textColor="@color/s17_trial_test_result_color_text"
+                    android:textSize="@dimen/s17_trial_test_result_text_size"
+                    tools:ignore="RelativeOverlap" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/mTvRankingNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="@dimen/s17_trial_test_result_item_list_padding"
+                    android:layout_marginStart="@dimen/s17_trial_test_result_item_list_padding"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="@dimen/s17_trial_test_result_text_size"
+                    tools:text="100" />
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/mTvTryAgain"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/s17_trial_test_result_bag" />
+
+                <RelativeLayout
+                    android:layout_width="@dimen/s17_trial_test_result_size_oval"
+                    android:layout_height="@dimen/s17_trial_test_result_size_oval"
+                    android:layout_above="@+id/mTvTryAgain"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="@dimen/s17_trial_test_result_padding"
+                    android:background="@drawable/s17_trial_test_result_circle">
+
+                    <!-- 2 View dùng để canh trái phải cho tổng số câu trả lời đúng trên tổng số câu hỏi-->
+                    <View
+                        android:id="@+id/mViewCenterHorizontal"
+                        android:layout_width="@dimen/s17_trial_test_result_view_center_height"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true" />
+
+                    <View
+                        android:id="@+id/mViewCenterVertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/s17_trial_test_result_view_center_height"
+                        android:layout_centerVertical="true" />
+
+                    <com.honkidenihongo.pre.gui.widget.AutoResizeTextView
+                        android:id="@+id/mTvCorrect"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/mViewCenterVertical"
+                        android:layout_marginLeft="@dimen/s17_trial_test_result_text_view_correct_margin"
+                        android:layout_marginStart="@dimen/s17_trial_test_result_text_view_correct_margin"
+                        android:layout_marginTop="@dimen/s17_trial_test_result_text_view_correct_margin"
+                        android:layout_toLeftOf="@+id/mViewCenterHorizontal"
+                        android:layout_toStartOf="@+id/mViewCenterHorizontal"
+                        android:ellipsize="none"
+                        android:maxLines="1"
+                        android:textColor="@color/s17_trial_test_result_color_item_correct"
+                        android:textSize="@dimen/s17_trial_test_result_total_text_size"
+                        android:textStyle="bold"
+                        android:visibility="visible"
+                        tools:text="660" />
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/mImgSpace"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@null"
+                        android:src="@drawable/s22_practice_result_ic_space"
+                        android:visibility="visible" />
+
+                    <com.honkidenihongo.pre.gui.widget.AutoResizeTextView
+                        android:id="@+id/mTvTotal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/mViewCenterVertical"
+                        android:layout_marginEnd="@dimen/s17_trial_test_result_text_view_total_margin"
+                        android:layout_marginRight="@dimen/s17_trial_test_result_text_view_total_margin"
+                        android:layout_toEndOf="@+id/mViewCenterHorizontal"
+                        android:layout_toRightOf="@+id/mViewCenterHorizontal"
+                        android:ellipsize="none"
+                        android:maxLines="1"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textSize="@dimen/s17_trial_test_result_total_text_size"
+                        android:textStyle="bold"
+                        tools:text="6000" />
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/mImgMax"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@null"
+                        android:src="@drawable/s17_trial_test_result_max"
+                        android:visibility="gone" />
+
+                </RelativeLayout>
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/mTvTryAgain"
+                    android:layout_width="@dimen/s17_trial_test_result_bad_height"
+                    android:layout_height="@dimen/s17_trial_test_result_bad_wight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/s17_trial_test_result_text_view_try_again_margin"
+                    android:background="@drawable/s17_trial_test_result_try_again"
+                    android:gravity="center"
+                    android:text="@string/s17_trial_test_result__btn_try_again"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/s17_trial_test_result_text_size"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/mRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:paddingTop="@dimen/s17_trial_test_result_padding" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_app__category__pre_common">Everyday Conversation</string>
+    <string name="common_app__category__pre_hiragana">Hiragana</string>
+    <string name="common_app__category__pre_katakna">Katakana</string>
+    <string name="common_app__category__pre_number">Number</string>
+    <string name="common_app__category__unit_sentence">Sentence</string>
+    <string name="common_app__category__unit_word">Word</string>
+    <!-- Tên của bài học mở đầu (Pre Lesson). -->
+    <string name="common_app__lesson_type__pre">Pre-lesson</string>
+    <!-- Tên của Lesson từ bài 1 trở đi. -->
+    <string name="common_app__lesson_type__unit">Unit</string>
+    <string name="common_app__level__advance">Advance</string>
+    <string name="common_app__level__basic">Basic</string>
+    <!-- App name hiển thị ở màn hình ứng dụng trên mobile. Sẽ thay đổi theo ngôn ngữ máy. -->
+    <string name="common_app__name">Honki de Nihongo - Pre</string>
+    <string name="common_app__romaji">Romaji</string>
+    <string name="common_app__testing__lbl_starting_description">Please choose the correct answer from 3 choices.</string>
+    <string name="common_app__time__this_month">This month</string>
+    <string name="common_app__time__this_week">This week</string>
+    <string name="common_app__time__this_year">This year</string>
+    <string name="common_app__time__today">Today</string>
+
+</resources>

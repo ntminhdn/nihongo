@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="s18_setting__help">Help</string>
+    <string name="s18_setting__help__display">Display explanation popup</string>
+    <string name="s18_setting__language">Language</string>
+    <!-- Same for all languages. -->
+    <string name="s18_setting__language__english">English</string>
+    <!-- Same for all languages. -->
+    <string name="s18_setting__language__japanese">日本語</string>
+    <!-- Same for all languages. -->
+    <string name="s18_setting__language__vietnamese">Tiếng Việt</string>
+
+</resources>

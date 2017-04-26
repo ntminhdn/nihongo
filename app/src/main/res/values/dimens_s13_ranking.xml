@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="s13_ranking_screen_padding">15dp</dimen>
+    <dimen name="s13_ranking_text_size">18sp</dimen>
+    <dimen name="s13_ranking_item_list_height">60dp</dimen>
+    <dimen name="s13_ranking_item_list_photo_size">40dp</dimen>
+    <dimen name="s13_ranking_item_list_padding">15dp</dimen>
+    <dimen name="s13_ranking_item_list_margin">10dp</dimen>
+    <dimen name="s13_ranking_item_list_text_size">16sp</dimen>
+    <dimen name="s13_ranking_tab_height">48dp</dimen>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="s14_flashcard__btn_remembered">Đã nhớ</string>
+    <string name="s14_flashcard__btn_take_note">Để ý</string>
+    <string name="s14_flashcard__tab_all">Tất cả</string>
+    <string name="s14_flashcard__tab_note">Ghi chú</string>
+
+</resources>

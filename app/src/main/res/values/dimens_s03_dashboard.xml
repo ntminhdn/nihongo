@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BEGIN: S03Dashboard. -->
+    <dimen name="s03_dashboard_title_size">16sp</dimen>
+    <dimen name="s03_dashboard_title_margin_top">30dp</dimen>
+    <dimen name="s03_dashboard_img_light_height">86dp</dimen>
+    <dimen name="s03_dashboard_img_light_wight">68dp</dimen>
+    <dimen name="s03_dashboard_img_light_margin_top">72dp</dimen>
+    <dimen name="s03_dashboard_view_content_height">200dp</dimen>
+    <dimen name="s03_dashboard_view_content_margin">15dp</dimen>
+    <dimen name="s03_dashboard_view_content_top">28dp</dimen>
+    <dimen name="s03_dashboard_view_day_padding">12dp</dimen>
+    <dimen name="s03_dashboard_view_day_size">20dp</dimen>
+    <dimen name="s03_dashboard_view_day_text_size">18sp</dimen>
+    <dimen name="s03_dashboard_view_day_margin">5dp</dimen>
+    <!-- END. -->
+</resources>

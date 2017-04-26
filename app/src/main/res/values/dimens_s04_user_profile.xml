@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BEGIN: S04UserProfile. -->
+    <dimen name="s04_user_profile_header_size">50dp</dimen>
+    <dimen name="s04_user_profile_avatar_size">100dp</dimen>
+    <dimen name="s04_user_profile_button_size_width">80dp</dimen>
+    <dimen name="s04_user_profile_button_size_height">40dp</dimen>
+    <dimen name="s04_user_profile_image_avatar_margin">10dp</dimen>
+    <dimen name="s04_user_profile_image_camera_size">23dp</dimen>
+    <dimen name="s04_user_profile_text_size">16dp</dimen>
+    <dimen name="s04_user_profile_text_size_user_code">23dp</dimen>
+    <dimen name="s04_user_profile_layout_margin_60">60dp</dimen>
+    <dimen name="s04_user_profile_layout_margin_30">30dp</dimen>
+    <dimen name="s04_user_profile_layout_margin_15">15dp</dimen>
+    <dimen name="s04_user_profile_layout_margin_10">10dp</dimen>
+    <dimen name="s04_user_profile_edit_text_margin_top">8dp</dimen>
+    <dimen name="s04_user_profile_layout_padding_15">15dp</dimen>
+
+    <!-- END. -->
+</resources>

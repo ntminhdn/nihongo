@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="s03_dashboard__day_friday">T6</string>
+    <string name="s03_dashboard__day_monday">T2</string>
+    <string name="s03_dashboard__day_saturday">T7</string>
+    <string name="s03_dashboard__day_sunday">CN</string>
+    <string name="s03_dashboard__day_thursday">T5</string>
+    <string name="s03_dashboard__day_tuesday">T3</string>
+    <string name="s03_dashboard__day_wednesday">T4</string>
+    <string name="s03_dashboard__last_week">Tuần trước</string>
+    <!-- Sample: Today, you have learned [2 hours 15 minutes] -->
+    <string name="s03_dashboard__learning_information">Hôm nay, bạn đã học được</string>
+
+</resources>

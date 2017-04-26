@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="s14_flashcard__btn_remembered">Remembered</string>
+    <string name="s14_flashcard__btn_take_note">Take note</string>
+    <string name="s14_flashcard__tab_all">All</string>
+    <string name="s14_flashcard__tab_note">Notes</string>
+
+</resources>

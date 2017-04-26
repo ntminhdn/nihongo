@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BEGIN: S07LessonCategory screen. -->
+    <dimen name="s07_lesson_category_height_title">50dp</dimen>
+    <dimen name="s07_lesson_category_content_height">132dp</dimen>
+    <dimen name="s07_lesson_category_content_padding_top">23dp</dimen>
+    <dimen name="s07_lesson_category_text_view_size">18sp</dimen>
+    <dimen name="s07_lesson_category_image_view_size">50dp</dimen>
+    <dimen name="s07_lesson_category_image_view_margin_top">35dp</dimen>
+    <dimen name="s07_lesson_category_text_view_margin_top">15dp</dimen>
+    <dimen name="s07_lesson_category_image_view_icon_size">30dp</dimen>
+
+    <!-- END. -->
+</resources>

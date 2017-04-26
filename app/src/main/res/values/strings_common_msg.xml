@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_msg__content_error__cannot_connect_to_server">Unable to connect to the Server</string>
+    <string name="common_msg__content_error__have_no_internet">No internet connection.</string>
+    <string name="common_msg__content_error__not_enough_memory_disk">The disk’s capacity is not enough.</string>
+    <string name="common_msg__content_error__not_enough_memory_ram">The RAM memory’s capacity is not enough.</string>
+    <string name="common_msg__content_error__processing_failure">Processing failed.</string>
+    <string name="common_msg__content_error__server_processing_failure">Server processing failed.</string>
+    <string name="common_msg__content_has_new_version">There is a new version available. Please update to the latest version.</string>
+    <string name="common_msg__content_info__get_data_failure">Getting data failed.</string>
+    <string name="common_msg__content_info__have_no_data">Have no data.</string>
+    <string name="common_msg__content_info__processing">Please wait. Processing...</string>
+    <string name="common_msg__content_warning__confirm_permission_camera">The Application need permission to access the camera.</string>
+    <string name="common_msg__content_warning__confirm_permission_gallery">The Application need permission to access the gallery.</string>
+    <!-- Chỉ có ở Android (xử lý tình huống Back cứng). -->
+    <string name="common_msg__content_warning__press_again_to_exit">Press again to exit.</string>
+    <!-- Tiêu đề của hộp thoại khi gặp lỗi xử lý. -->
+    <string name="common_msg__title__error">Error</string>
+    <!-- Tiêu đề của hộp thoại khi cần cung cấp thông tin. -->
+    <string name="common_msg__title__info">Information</string>
+    <!-- Tiêu đề của hộp thoại khi cảnh báo. -->
+    <string name="common_msg__title__warning">Warning</string>
+
+</resources>

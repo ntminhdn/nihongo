@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:id="@+id/rl_knowledge_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/s15_knowledge_list_bg_item">
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/ib_sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/s15_knowledge_list_title_padding"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:background="@drawable/ic_sound"
+        android:contentDescription="@null"
+        android:padding="@dimen/item_knowledge_padding_vertical" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_subject_romaji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/item_knowledge_padding_vertical"
+        android:layout_toEndOf="@+id/ib_sound"
+        android:layout_toRightOf="@+id/ib_sound"
+        android:ellipsize="end"
+        android:lineSpacingExtra="1sp"
+        android:maxLines="2"
+        android:textColor="@color/common_black"
+        android:textSize="@dimen/item_knowledge_text_size_large"
+        tool:text="Title" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_subject_kana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/s15_knowledge_list_item_detail_content_kana_margin_left"
+        android:layout_marginStart="@dimen/s15_knowledge_list_item_detail_content_kana_margin_left"
+        android:layout_marginTop="@dimen/item_knowledge_padding_vertical"
+        android:layout_toEndOf="@+id/tv_subject_romaji"
+        android:layout_toRightOf="@+id/tv_subject_romaji"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/common_black"
+        android:textSize="@dimen/item_knowledge_text_size_large"
+        android:visibility="gone"
+        tool:text="Kana" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_vietnamese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_subject_romaji"
+        android:layout_toEndOf="@+id/ib_sound"
+        android:layout_toRightOf="@+id/ib_sound"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:layout_marginBottom="@dimen/item_knowledge_padding_vertical"
+        android:textColor="@color/common_gray"
+        android:textSize="@dimen/item_knowledge_text_size_medium"
+        tool:text="vietNameVietName" />
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/ib_show_detail"
+        android:layout_width="@dimen/item_knowledge_icon_size_small"
+        android:layout_height="@dimen/item_knowledge_icon_size_small"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@null"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_list_line_divider" />
+
+</RelativeLayout>

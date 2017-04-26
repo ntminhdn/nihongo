@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BEGIN: S01Login. -->
+
+    <dimen name="s01_login_padding_all_screen">65dp</dimen>
+    <dimen name="s01_login_edit_text_height">43dp</dimen>
+    <dimen name="s01_login_edit_text_margin">8dp</dimen>
+    <dimen name="s01_login_activity_edit_text_padding">5dp</dimen>
+    <dimen name="s01_login_text_view_size_title_margin">30dp</dimen>
+    <dimen name="s01_login_image_view_height">155dp</dimen>
+    <dimen name="s01_login_image_view_padding">20dp</dimen>
+    <dimen name="s01_login_image_view_margin">23dp</dimen>
+    <dimen name="s01_login_text_view_password_margin">12dp</dimen>
+    <dimen name="s01_login_activity_btn_login_height">43dp</dimen>
+    <dimen name="s01_login_activity_btn_login_width">152dp</dimen>
+    <dimen name="s01_login_button_margin_top">14dp</dimen>
+    <dimen name="s01_login_text_size">18sp</dimen>
+    <dimen name="s01_login_activity_text_size_small">14sp</dimen>
+    <dimen name="s01_login_activity_image_language_size">50dp</dimen>
+    <dimen name="s01_login_activity_image_language_padding">5dp</dimen>
+
+    <!-- END. -->
+</resources>

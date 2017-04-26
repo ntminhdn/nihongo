@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/s06_lesson_list_bg_text_view_download_press" android:state_pressed="true" />
+    <item android:drawable="@drawable/s06_lesson_list_bg_text_view_download_normal" />
+</selector>

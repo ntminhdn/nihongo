@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BEGIN: S26TermsOfService. -->
+    <dimen name="s26_terms_of_service_screen_padding">15dp</dimen>
+    <dimen name="s26_terms_of_service_screen_padding_bottom">30dp</dimen>
+    <dimen name="s26_terms_of_service_text_size">18sp</dimen>
+    <dimen name="s26_terms_of_service_view_national_height">40dp</dimen>
+    <dimen name="s26_terms_of_service_text_view_margin">20dp</dimen>
+    <dimen name="s26_terms_of_service_text_view_padding">5dp</dimen>
+    <dimen name="s26_terms_of_service_button_height">43dp</dimen>
+    <dimen name="s26_terms_of_service_button_with">200dp</dimen>
+    <dimen name="s26_terms_of_service_button_margin">30dp</dimen>
+    <dimen name="s26_terms_of_service_process_bar_size">50dp</dimen>
+
+    <!-- END. -->
+</resources>

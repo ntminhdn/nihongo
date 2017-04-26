@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="s02_register__btn_register">Đăng ký</string>
+    <string name="s02_register__chk_agree_to_terms_of_service">Tôi đồng ý với các Điều Khoản Dịch Vụ</string>
+    <string name="s02_register__content_error__register_failure">Đăng ký thất bại (Tên Đăng Nhập hoặc Email đã tồn tại).</string>
+    <!-- Thông báo lỗi khi chưa đồng ý với TermsOfService. -->
+    <string name="s02_register__content_error__un_check_terms">Bạn cần đồng ý với các Điều Khoản Dịch Vụ.</string>
+    <string name="s02_register__content_info__register_success">Đăng ký thành công.</string>
+    <string name="s02_register__lbl_terms_of_service">Điều Khoản Dịch Vụ</string>
+
+</resources>

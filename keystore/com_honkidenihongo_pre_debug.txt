@@ -1,0 +1,31 @@
+storeFile: "com_honkidenihongo_pre_debug.jks"
+storePassword: "honkidenihongo@Pre2017"
+keyAlias: "com_honkidenihongo_pre_debug"
+keyPassword: "honkidenihongo@Pre2017a"
+
+    CN (First name & Last name): "Honki de Nihongo"
+    OU (Organiztion Unit): "JIL"
+    O (Organiztion): "Japan ICT Learning"
+    L (City or Locality): "Da Nang"
+    ST (State or Province): "Da Nang"
+    C (Country Code): "VN"
+
+Fingure print:
+    Alias name: com_honkidenihongo_pre_debug
+    Creation date: Jan 23, 2017
+    Entry type: PrivateKeyEntry
+    Certificate chain length: 1
+    Certificate[1]:
+    Owner: CN=Honki de Nihongo, OU=JIL, O=Japan ICT Learning, L=Da Nang, ST=Da Nang, C=VN
+    Issuer: CN=Honki de Nihongo, OU=JIL, O=Japan ICT Learning, L=Da Nang, ST=Da Nang, C=VN
+    Serial number: 7fad8dc8
+    Valid from: Mon Jan 23 09:40:08 ICT 2017 until: Wed Dec 30 09:40:08 ICT 2116
+    Certificate fingerprints:
+             MD5:  10:30:CB:4C:FD:DE:C7:FE:C7:B4:02:64:6B:A2:08:71
+             SHA1: 30:48:0E:F1:E6:3A:F8:CA:B6:09:DF:23:64:2B:E8:60:0E:63:59:75
+             SHA256: 20:07:05:99:B7:22:A4:C1:00:8D:B0:2D:D3:E8:AB:F3:6C:87:80:F8:72:21:F1:DE:69:81:E2:70:74:B1:CB:B2
+             Signature algorithm name: SHA256withRSA
+             Version: 3
+
+Key Hash for Facebook:
+    MEgO8eY6+Mq2Cd8jZCvoYA5jWXU=

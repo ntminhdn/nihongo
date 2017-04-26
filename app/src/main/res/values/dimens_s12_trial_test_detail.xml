@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BEGIN: S12TrialTestDetail. -->
+    <dimen name="s12_trial_test_detail_title_padding">15dp</dimen>
+    <dimen name="s12_trial_test_detail_image_size">140dp</dimen>
+    <dimen name="s12_trial_test_detail_text_size">18sp</dimen>
+    <dimen name="s12_trial_test_detail_text_size_count_down">35sp</dimen>
+    <dimen name="s12_trial_test_detail_text_question_size">48sp</dimen>
+    <dimen name="s12_trial_test_detail_height_button">62dp</dimen>
+    <dimen name="s12_trial_test_detail_button_margin">50dp</dimen>
+    <dimen name="s12_trial_test_detail_text_view_question_padding">2dp</dimen>
+    <dimen name="s12_trial_test_detail_sound_padding">12dp</dimen>
+
+    <!-- END. -->
+</resources>

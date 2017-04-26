@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ToolbarTheme"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvTitleToolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            tools:ignore="RelativeOverlap"
+            tools:text="@string/common_app__name" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/mBtnCrop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="end"
+            android:text="@string/common_text__select"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,RelativeOverlap" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <com.honkidenihongo.pre.gui.widget.CropImageView
+        android:id="@+id/mImgCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:frameColor="@color/common_white"
+        android:scaleType="centerCrop"
+        app:frameStrokeWeight="1dp"
+        app:guideColor="@color/common_white"
+        app:guideShowMode="show_always"
+        app:guideStrokeWeight="1dp"
+        app:handleColor="@color/cardview_light_background"
+        app:handleShowMode="show_always"
+        app:handleSize="@dimen/s04_user_profile_edit_text_margin_top" />
+
+</LinearLayout>

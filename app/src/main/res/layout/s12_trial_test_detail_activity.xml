@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/s12_trial_test_detail_color_background"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/mViewToolbar"
+        layout="@layout/toolbar_custom_view" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mTvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mViewToolbar"
+        android:layout_toLeftOf="@+id/mTvPosition"
+        android:layout_toStartOf="@+id/mTvPosition"
+        android:maxLines="2"
+        android:padding="@dimen/s12_trial_test_detail_title_padding"
+        android:textColor="@color/s12_trial_test_detail_color_text"
+        android:textSize="@dimen/s12_trial_test_detail_text_size"
+        tools:text="Basic/ word/ knowledge" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mTvPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/mViewToolbar"
+        android:padding="@dimen/s12_trial_test_detail_title_padding"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/s12_trial_test_detail_text_size"
+        tools:text="20/30" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mTvCountDown"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/mTvTitle"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/s12_trial_test_circle_count_down"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="@dimen/s12_trial_test_detail_text_size_count_down"
+        android:textStyle="bold"
+        tools:text="3" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/mBtnAnswer1"
+        android:layout_below="@+id/mTvCountDown"
+        android:gravity="center">
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/mImgSound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/s12_trial_test_detail_title_padding"
+            android:background="@drawable/ic_sound"
+            android:contentDescription="@null"
+            android:padding="@dimen/s12_trial_test_detail_sound_padding"
+            android:visibility="gone" />
+
+        <com.honkidenihongo.pre.gui.widget.AutoResizeTextView
+            android:id="@+id/mTvQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="@dimen/s12_trial_test_detail_text_view_question_padding"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/s12_trial_test_detail_text_question_size"
+            tools:text="20/30" />
+    </RelativeLayout>
+
+    <com.honkidenihongo.pre.gui.widget.AutoResizeTextView
+        android:id="@+id/mBtnAnswer1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/s12_trial_test_detail_height_button"
+        android:layout_above="@+id/mBtnAnswer2"
+        android:layout_marginLeft="@dimen/s12_trial_test_detail_button_margin"
+        android:layout_marginRight="@dimen/s12_trial_test_detail_button_margin"
+        android:background="@drawable/s12_trial_test_detail_btn_normal"
+        android:gravity="center"
+        android:textColor="@color/s12_trial_test_detail_color_button_question"
+        android:textSize="@dimen/s12_trial_test_detail_text_size" />
+
+    <com.honkidenihongo.pre.gui.widget.AutoResizeTextView
+        android:id="@+id/mBtnAnswer2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/s12_trial_test_detail_height_button"
+        android:layout_above="@+id/mBtnAnswer3"
+        android:layout_marginLeft="@dimen/s12_trial_test_detail_button_margin"
+        android:layout_marginRight="@dimen/s12_trial_test_detail_button_margin"
+        android:layout_marginTop="@dimen/s12_trial_test_detail_title_padding"
+        android:background="@drawable/s12_trial_test_detail_btn_normal"
+        android:gravity="center"
+        android:textColor="@color/s12_trial_test_detail_color_button_question"
+        android:textSize="@dimen/s12_trial_test_detail_text_size" />
+
+    <com.honkidenihongo.pre.gui.widget.AutoResizeTextView
+        android:id="@+id/mBtnAnswer3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/s12_trial_test_detail_height_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/s12_trial_test_detail_title_padding"
+        android:layout_marginLeft="@dimen/s12_trial_test_detail_button_margin"
+        android:layout_marginRight="@dimen/s12_trial_test_detail_button_margin"
+        android:layout_marginTop="@dimen/s12_trial_test_detail_title_padding"
+        android:background="@drawable/s12_trial_test_detail_btn_normal"
+        android:gravity="center"
+        android:textColor="@color/s12_trial_test_detail_color_button_question"
+        android:textSize="@dimen/s12_trial_test_detail_text_size" />
+
+</RelativeLayout>

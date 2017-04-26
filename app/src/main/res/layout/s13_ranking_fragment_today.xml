@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/s13_ranking_color_screen">
+
+    <RelativeLayout
+        android:id="@+id/mViewContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/s13_ranking_color_screen">
+
+        <View
+            android:id="@+id/mViewTop"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorPrimary" />
+
+        <View
+            android:id="@+id/mViewBottom"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary" />
+
+        <View
+            android:id="@+id/mViewLeft"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/colorPrimary" />
+
+        <View
+            android:id="@+id/mViewRight"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/colorPrimary" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/mRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/mViewBottom"
+            android:layout_below="@+id/mViewTop"
+            android:layout_toEndOf="@+id/mViewLeft"
+            android:layout_toLeftOf="@+id/mViewRight"
+            android:layout_toRightOf="@+id/mViewLeft"
+            android:layout_toStartOf="@+id/mViewRight"
+            android:background="@color/s13_ranking_color_screen" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mTvNoData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/s13_ranking_color_screen"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:text="mTvNoData" />
+
+</RelativeLayout>

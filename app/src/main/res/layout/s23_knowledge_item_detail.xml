@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s15_knowledge_list_bg_item_detail"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/mImgDescription"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@null" />
+
+    <RelativeLayout
+        android:id="@+id/mViewContentKana"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.honkidenihongo.pre.gui.widget.AutoResizeTextView
+            android:id="@+id/mTvKana"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/mTvRomaji"
+            android:layout_marginLeft="@dimen/s15_knowledge_list_title_padding"
+            android:layout_marginRight="@dimen/s15_knowledge_list_title_padding"
+            android:ellipsize="none"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/s15_knowledge_list_item_detail_text_title_size"
+            android:textStyle="bold"
+            tools:text="AB" />
+
+        <!--Margin left and right cho textView với màn hình lớn nhất sẽ xuống dòng không bị che bởi 2 ảnh button qua lại.-->
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvRomaji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/s15_knowledge_list_title_padding"
+            android:layout_marginRight="@dimen/s15_knowledge_list_title_padding"
+            android:gravity="center"
+            android:textColor="@color/s15_knowledge_list_color_text_romaji"
+            android:textSize="@dimen/s15_knowledge_list_size_text_title"
+            tools:text="/oh/" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvMeaning"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/mImgSound"
+            android:gravity="center"
+            android:textColor="@color/s15_knowledge_list_color_text_mean"
+            android:textSize="@dimen/s15_knowledge_list_size_text_title"
+            tools:text="/meaning" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/mImgSound"
+            android:layout_width="@dimen/s15_knowledge_list_item_detail_image_size"
+            android:layout_height="@dimen/s15_knowledge_list_item_detail_image_size"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_sound"
+            android:contentDescription="@null" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvKanji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/mImgClose"
+            android:layout_below="@+id/mImgSound"
+            android:gravity="center"
+            android:textColor="@color/s15_knowledge_list_color_text_mean"
+            android:textSize="@dimen/s15_knowledge_list_size_text_title"
+            tools:text="/Kanji" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/mImgClose"
+            android:layout_width="@dimen/s15_knowledge_list_item_detail_image_size"
+            android:layout_height="@dimen/s15_knowledge_list_item_detail_image_size"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/s15_knowledge_list_item_detail_image_close_margin_bottom"
+            android:background="@drawable/s15_knowledge_ic_close"
+            android:contentDescription="@null" />
+    </RelativeLayout>
+</LinearLayout>

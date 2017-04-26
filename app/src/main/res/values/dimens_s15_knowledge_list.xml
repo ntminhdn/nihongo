@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BEGIN: S15KnowledgeList. -->
+    <dimen name="s15_knowledge_list_size_text_title">18sp</dimen>
+    <dimen name="s15_knowledge_list_title_padding">15dp</dimen>
+    <dimen name="s15_knowledge_list_size_icon_back">24dp</dimen>
+    <dimen name="s15_knowledge_list_icon_back_margin_left">12dp</dimen>
+    <dimen name="s15_knowledge_list_size_icon_pre_and_next">36dp</dimen>
+    <dimen name="s15_knowledge_list_size_icon_pre_and_next_margin">4dp</dimen>
+    <dimen name="s15_knowledge_list_margin_top">35dp</dimen>
+    <dimen name="s15_knowledge_list_item_detail_text_title_size">45sp</dimen>
+    <dimen name="s15_knowledge_list_item_detail_text_title_margin_top">5dp</dimen>
+    <dimen name="s15_knowledge_list_item_detail_image_size">25dp</dimen>
+    <dimen name="s15_knowledge_list_item_detail_image_close_margin_bottom">5dp</dimen>
+    <dimen name="s15_knowledge_list_item_detail_content_kana_margin_left">5dp</dimen>
+
+    <!-- END. -->
+</resources>

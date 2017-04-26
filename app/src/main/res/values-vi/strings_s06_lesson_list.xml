@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="s06_lesson_list__btn_download_all">Tải tất cả</string>
+    <string name="s06_lesson_list__content_error__download_lesson_failure">Tải Bài Học thất bại.</string>
+    <!-- Thông báo lấy danh sách Lesson từ Server thất bại. -->
+    <string name="s06_lesson_list__content_error__get_lesson_list_failure">Lấy Danh Sách Bài Học thất bại.</string>
+    <string name="s06_lesson_list__lbl_lesson_status__comming_soon">Sắp có...</string>
+    <string name="s06_lesson_list__lbl_lesson_status__download_error">Lỗi tải dữ liệu</string>
+    <string name="s06_lesson_list__lbl_lesson_status__downloaded">Đã tải xong</string>
+    <string name="s06_lesson_list__lbl_lesson_status__downloading">Đang tải...</string>
+    <string name="s06_lesson_list__lbl_lesson_status__learn_completed">Đã học xong</string>
+    <string name="s06_lesson_list__lbl_lesson_status__un_downloaded">Chưa tải</string>
+    <string name="s06_lesson_list__lbl_lesson_status__update">Cập nhật</string>
+    <string name="s06_lesson_list__lbl_lesson_status__updating">Đang cập nhật...</string>
+    <string name="s06_lesson_list__lbl_lesson_status__waiting_for_downloading">Đang đợi tải...</string>
+    <string name="s06_lesson_list__lbl_lesson_status__waiting_for_updating">Đang đợi cập nhật...</string>
+
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.honkidenihongo.pre">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo_app"
+        android:label="@string/common_app__name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label, android:icon, android:theme">
+
+        <activity
+            android:name=".gui.S00SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".gui.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".gui.auth.S01Login_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gui.auth.S02Register_Activity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".gui.auth.S25ResetPassword_Step1_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gui.auth.S25ResetPassword_Step2_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gui.auth.S25ResetPassword_Step3_Activity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".gui.knowledge.S15KnowledgeList_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gui.knowledge.S23KnowledgeDetail_Activity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".gui.practice.S11PracticeList_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gui.practice.S20PracticeStarting_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gui.practice.S21PracticeDetail_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gui.practice.S22PracticeResult_Activity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".gui.flashcard.S14Flashcard_Activity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".gui.trialtest.S12TrialTestDetail_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gui.trialtest.S24TrialTestStarting_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gui.trialtest.S17TrialTestResult_Activity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".gui.ranking.S13Ranking_Activity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".gui.common.S26TermsOfService_Activity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".gui.cropphoto.CropPhotoActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/common_app__name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            tools:replace="android:theme" />
+
+        <service android:name=".service.DownloadLessonService" />
+
+        <service android:name=".service.AudioService" />
+
+        <service android:name=".service.JilFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".service.JilFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <!--Todo hiện tại không dùng bộ đếm để refresh token.-->
+        <!--<receiver android:name=".service.receiver.RefreshTokenReceiver">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="android.intent.action.BOOT_COMPLETED" />-->
+        <!--<action android:name="com.honkidenihongo.pre.action.REFRESH_TOKEN" />-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+
+        <!--Todo hiện tại trong version chưa gọi đến service này-->
+        <!--<receiver android:name=".service.receiver.UsedAppLogReceiver">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="3l.time.log.start" />-->
+        <!--<action android:name="3l.time.log.end" />-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+
+        <!--Todo hiện tại trong version chưa gọi đến service này-->
+        <!--<receiver android:name=".service.receiver.SendLogReceiver">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="android.intent.action.BOOT_COMPLETED" />-->
+        <!--<action android:name="com.honkidenihongo.pre.action.SEND_LOG" />-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+
+    </application>
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_image__btn_camera">Camera</string>
+    <string name="common_image__btn_gallery">Gallery</string>
+    <!-- Thông báo nếu thiết bị không có camera. -->
+    <string name="common_image__content_error__has_no_camera">Your device doesn’t support camera.</string>
+    <string name="common_image__content_error__photo_file_too_big">The photo file is too large.</string>
+    <string name="common_image__title__choose_application">Choose application</string>
+    <string name="common_image__title__select_photo">Select photo</string>
+
+</resources>

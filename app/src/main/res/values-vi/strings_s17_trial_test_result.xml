@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="s17_trial_test_result__btn_try_again">Làm lại</string>
+    <string name="s17_trial_test_result__lbl_point">Điểm</string>
+    <string name="s17_trial_test_result__lbl_rank">Hạng</string>
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/s26_terms_of_service_color_screen_background">
+
+    <include
+        android:id="@+id/mViewToolbar"
+        layout="@layout/toolbar_custom_view" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mViewToolbar"
+        android:background="@color/s26_terms_of_service_color_screen_background"
+        android:paddingBottom="@dimen/s26_terms_of_service_screen_padding_bottom"
+        android:paddingLeft="@dimen/s26_terms_of_service_screen_padding"
+        android:paddingRight="@dimen/s26_terms_of_service_screen_padding"
+        android:paddingTop="@dimen/s26_terms_of_service_screen_padding">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvTerm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/s26_terms_of_service__title"
+            android:textColor="@color/s26_terms_of_service_color_text"
+            android:textSize="@dimen/s26_terms_of_service_text_size"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/mView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/s26_terms_of_service_view_national_height"
+            android:layout_below="@+id/mTvTerm"
+            android:layout_marginTop="@dimen/s26_terms_of_service_screen_padding"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/mImgJapan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:src="@drawable/s26_term_of_service_img_japan" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/mImgVietnamese"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:src="@drawable/s26_term_of_service_img_vietnam" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/mImgEnglish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:src="@drawable/s26_term_of_service_img_english" />
+
+        </LinearLayout>
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/mBtnAgree"
+            android:layout_below="@+id/mView"
+            android:layout_marginTop="@dimen/s26_terms_of_service_text_view_margin"
+            android:background="@android:color/transparent"
+            android:fadeScrollbars="false"
+            android:scrollbars="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/mTxtContent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/s26_terms_of_service_text_view_padding"
+                android:paddingRight="@dimen/s26_terms_of_service_text_view_padding" />
+        </android.support.v4.widget.NestedScrollView>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/mBtnAgree"
+            android:layout_width="@dimen/s26_terms_of_service_button_with"
+            android:layout_height="@dimen/s26_terms_of_service_button_height"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/s26_terms_of_service_button_margin"
+            android:background="@drawable/s26_term_of_service_bg_button"
+            android:text="@string/s26_terms_of_service__btn_agree"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/mProgressBar"
+        style="@android:style/Widget.Holo.ProgressBar.Large"
+        android:layout_width="@dimen/s26_terms_of_service_process_bar_size"
+        android:layout_height="@dimen/s26_terms_of_service_process_bar_size"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+</RelativeLayout>

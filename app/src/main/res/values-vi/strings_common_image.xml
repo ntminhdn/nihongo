@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_image__btn_camera">Máy ảnh</string>
+    <string name="common_image__btn_gallery">Thư viện ảnh</string>
+    <!-- Thông báo nếu thiết bị không có camera. -->
+    <string name="common_image__content_error__has_no_camera">Thiết bị không hỗ trợ camera.</string>
+    <string name="common_image__content_error__photo_file_too_big">Tệp tin ảnh quá lớn.</string>
+    <string name="common_image__title__choose_application">Chọn ứng dụng</string>
+    <string name="common_image__title__select_photo">Chọn ảnh</string>
+
+</resources>

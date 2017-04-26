@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BEGIN: S14Flashcard. -->
+    <dimen name="s14_flashcard_screen_padding">15dp</dimen>
+    <dimen name="s14_flashcard_text_size">18sp</dimen>
+    <dimen name="s14_flashcard_image_size">50dp</dimen>
+    <dimen name="s14_flashcard_tab_height">48dp</dimen>
+    <dimen name="s14_flashcard_image_refresh_size">50dp</dimen>
+    <dimen name="s14_flashcard_swipe_stack_margin_bottom">40dp</dimen>
+    <dimen name="s14_flashcard_swipe_stack_padding_top">50dp</dimen>
+    <dimen name="s14_flashcard_swipe_stack_padding_left_right">30dp</dimen>
+    <dimen name="s14_flashcard_item_list_text_size_title">50sp</dimen>
+    <dimen name="s14_flashcard_item_list_text_title_margin_top">60dp</dimen>
+    <dimen name="s14_flashcard_item_list_image_sound_size">12dp</dimen>
+    <dimen name="s14_flashcard_item_list_text_content_margin">15dp</dimen>
+    <dimen name="s14_flashcard_item_list_text_language_padding">6dp</dimen>
+    <dimen name="s14_flashcard_item_list_text_mean_padding">9dp</dimen>
+    <dimen name="s14_flashcard_item_list_text_mean_size">36sp</dimen>
+
+    <!-- END. -->
+</resources>

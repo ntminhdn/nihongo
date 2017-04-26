@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BEGIN: Common. -->
+    <integer name="common_txt_username_max_length">20</integer>
+    <integer name="common_txt_username_min_length">5</integer>
+
+    <integer name="common_txt_password_max_length">20</integer>
+    <integer name="common_txt_password_min_length">6</integer>
+
+    <integer name="common_txt_email_max_length">100</integer>
+    <integer name="common_txt_email_min_length">5</integer>
+
+    <!-- END. -->
+
+    <!-- BEGIN: S25ResetPassword. -->
+    <integer name="s25_reset_password_txt_reset_code_max_length">10</integer>
+    <integer name="s25_reset_password_txt_reset_code_min_length">5</integer>
+
+    <!-- END. -->
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="#41c3fd"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <com.honkidenihongo.pre.gui.widget.CircleImageView
+        android:id="@+id/civ_menu_avatar"
+        android:layout_width="@dimen/s05_navigation_menu_avatar_size"
+        android:layout_height="@dimen/s05_navigation_menu_avatar_size"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_avatar_default" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_menu_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/civ_menu_avatar"
+        android:gravity="center"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="bold"
+        tools:text="Android Studio" />
+</RelativeLayout>

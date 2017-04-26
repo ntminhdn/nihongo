@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="s29_about_us_screen_padding">15dp</dimen>
+    <dimen name="s29_about_us_logo_width_height">80dp</dimen>
+    <dimen name="s29_about_us_logo_margin_top">30dp</dimen>
+    <dimen name="s29_about_us_button_with">200dp</dimen>
+    <dimen name="s29_about_us_button_height">43dp</dimen>
+    <dimen name="s29_about_us_view_margin_top">2dp</dimen>
+</resources>

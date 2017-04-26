@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_msg__content_error__cannot_connect_to_server">Không thể kết nối tới Server.</string>
+    <string name="common_msg__content_error__have_no_internet">Không có kết nối Internet.</string>
+    <string name="common_msg__content_error__not_enough_memory_disk">Dung lượng ổ đĩa không đủ.</string>
+    <string name="common_msg__content_error__not_enough_memory_ram">Dung lượng bộ nhớ RAM không đủ.</string>
+    <string name="common_msg__content_error__processing_failure">Việc xử lý thất bại.</string>
+    <string name="common_msg__content_error__server_processing_failure">Việc xử lý Server thất bại.</string>
+    <string name="common_msg__content_has_new_version">Phiên bản mới đã sẵn sàng. Mời bạn update lên phiên bản mới nhất.</string>
+    <string name="common_msg__content_info__get_data_failure">Việc lấy dữ liệu thất bại.</string>
+    <string name="common_msg__content_info__have_no_data">Không có dữ liệu.</string>
+    <string name="common_msg__content_info__processing">Xin vui lòng chờ. Đang xử lý...</string>
+    <string name="common_msg__content_warning__confirm_permission_camera">Ứng dụng cần quyền truy cập camera.</string>
+    <string name="common_msg__content_warning__confirm_permission_gallery">Ứng dụng cần quyền truy cập thư viện ảnh.</string>
+    <!-- Chỉ có ở Android (xử lý tình huống Back cứng). -->
+    <string name="common_msg__content_warning__press_again_to_exit">Bấm lần nữa để thoát.</string>
+    <!-- Tiêu đề của hộp thoại khi gặp lỗi xử lý. -->
+    <string name="common_msg__title__error">Lỗi</string>
+    <!-- Tiêu đề của hộp thoại khi cần cung cấp thông tin. -->
+    <string name="common_msg__title__info">Thông tin</string>
+    <!-- Tiêu đề của hộp thoại khi cảnh báo. -->
+    <string name="common_msg__title__warning">Cảnh báo</string>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_help_parent_padding">30dp</dimen>
+    <dimen name="dialog_help_child_padding">15dp</dimen>
+    <dimen name="dialog_help_size_text_content">17sp</dimen>
+    <dimen name="dialog_help_height_button_ok">50dp</dimen>
+    <dimen name="dialog_help_text_content_margin_top">5dp</dimen>
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/s14_flash_cart_color_screen">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mTvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/s14_flash_cart_color_screen"
+        android:padding="@dimen/s14_flashcard_screen_padding"
+        android:text="@string/common_module__flashcard"
+        android:textColor="@color/s14_flash_cart_color_text"
+        android:textSize="@dimen/s14_flashcard_text_size" />
+
+    <com.honkidenihongo.pre.gui.widget.SwipeStack
+        android:id="@+id/mSwipeStack"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/s14_flashcard_swipe_stack_margin_bottom"
+        android:paddingLeft="@dimen/s14_flashcard_swipe_stack_padding_left_right"
+        android:paddingRight="@dimen/s14_flashcard_swipe_stack_padding_left_right"
+        android:paddingTop="@dimen/s14_flashcard_swipe_stack_padding_top"
+        app:scale_factor="1.0"
+        app:stack_rotation="0"
+        app:stack_size="3"
+        app:stack_spacing="0dp"
+        app:swipe_opacity="0.3"
+        app:swipe_rotation="45" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/mImgRemember"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/s14_flashcard_image_size"
+        android:layout_above="@+id/mTvLater"
+        android:layout_marginLeft="@dimen/s14_flashcard_screen_padding"
+        android:layout_marginStart="@dimen/s14_flashcard_screen_padding"
+        android:contentDescription="@null"
+        android:src="@drawable/s14_flash_card_pre" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mTvLater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/s14_flashcard_screen_padding"
+        android:layout_marginEnd="@dimen/s14_flashcard_screen_padding"
+        android:layout_marginRight="@dimen/s14_flashcard_screen_padding"
+        android:text="@string/s14_flashcard__btn_take_note"
+        android:textColor="@color/common_black"
+        android:textSize="@dimen/s14_flashcard_text_size"
+        tools:ignore="RelativeOverlap" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/mImgLater"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/s14_flashcard_image_size"
+        android:layout_above="@+id/mTvRemember"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="@dimen/s14_flashcard_screen_padding"
+        android:layout_marginRight="@dimen/s14_flashcard_screen_padding"
+        android:contentDescription="@null"
+        android:src="@drawable/s14_flash_card_next" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mTvRemember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="@dimen/s14_flashcard_screen_padding"
+        android:layout_marginLeft="@dimen/s14_flashcard_screen_padding"
+        android:layout_marginStart="@dimen/s14_flashcard_screen_padding"
+        android:text="@string/s14_flashcard__btn_remembered"
+        android:textColor="@color/common_black"
+        android:textSize="@dimen/s14_flashcard_text_size" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mTvPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/s14_flashcard_screen_padding"
+        android:gravity="center_horizontal"
+        android:textColor="@color/s14_flash_cart_color_text_position"
+        android:textSize="@dimen/s14_flashcard_text_size"
+        tools:text="50" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mTvTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/s14_flashcard_screen_padding"
+        android:layout_toEndOf="@+id/mTvPosition"
+        android:layout_toRightOf="@+id/mTvPosition"
+        android:gravity="center_horizontal"
+        android:textColor="@color/s14_flash_cart_color_text_position"
+        android:textSize="@dimen/s14_flashcard_text_size" />
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/mImgRefresh"
+        android:layout_width="@dimen/s14_flashcard_image_refresh_size"
+        android:layout_height="@dimen/s14_flashcard_image_refresh_size"
+        android:layout_centerInParent="true"
+        android:background="@drawable/s14_flashcard_img_refresh"
+        android:contentDescription="@null"
+        android:visibility="gone" />
+
+</RelativeLayout>

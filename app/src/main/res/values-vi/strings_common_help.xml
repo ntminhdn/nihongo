@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_help__s03_dashboard__title">Chào mừng bạn đến với ứng dụng Honki de Nihongo</string>
+    <string name="common_help__s03_dashboard__content">Nhấn vào biểu tượng 三 phía trên bên trái màn hình này để bắt đầu học tiếng Nhật.\n\nHãy chọn nội dung học từ Danh Sách Bài Học nhé.</string>
+    <string name="common_help__s04_user_profile__title">Thông Tin Cá Nhân</string>
+    <string name="common_help__s04_user_profile__content">Tên Đăng Nhập: Là tên tài khoản được hiển thị trong ứng dụng.\nMã Học Viên: Là mã để sử dụng dịch vụ bên ngoài và quản lý data.\nEmail: Là địa chỉ email đã đăng ký.</string>
+    <string name="common_help__s05_navigation_menu__title">Menu</string>
+    <string name="common_help__s05_navigation_menu__content">Bảng Thông Tin: Xác nhận thời gian học quá khứ. Hãy học theo kế hoạch.\nDanh Sách Bài Học: Chọn Bài học. Các Bài đang ứng với Minna no Nihongo.\nThông Tin Cá Nhân: Là thông tin đăng ký của người dùng. Sẽ sử dụng Mã Học Viên khi dùng dịch vụ bên ngoài.\nThiết Đặt: Có thể lựa chọn ngôn ngữ. Có thể lựa chọn hiển thị/không hiển thị nội dung giải thích này.\nVề Chúng Tôi: Thông tin về phiên bản, Điều Khoản Dịch Vụ.\nĐăng Xuất: Đăng xuất ra khỏi ứng dụng.</string>
+    <string name="common_help__s07_lesson_category__title">Cách học các Bài</string>
+    <string name="common_help__s07_lesson_category__content">1. Trong Từ Vựng và Câu của phần Cơ Bản, các bạn sẽ học từ vựng và câu cơ bản.\n2. Trong Từ Vựng và Câu của phần Nâng Cao sẽ bao gồm những từ và câu hay sử dụng trong cuộc sống hàng ngày ở Nhật và trong công việc.\n3. Học xong Từ Vựng và Câu của phần Cơ Bản thì hãy luyện tập trả lời nhanh tại phần Trắc Nghiệm nhé.</string>
+    <string name="common_help__s11_practice_list__title">Phương pháp học của phần Luyện Tập</string>
+    <string name="common_help__s11_practice_list__content">1. Nhìn tiếng Nhật để luyện tập trả lời nghĩa tiếng Việt.\n2. Nhìn tiếng Việt để luyện tập trả lời tiếng Nhật.\n3. Nghe âm thanh tiếng Nhật để luyện tập trả lời tiếng Nhật.\n4. Nghe âm thanh tiếng Nhật để luyện tập trả lời nghĩa tiếng Việt.</string>
+    <string name="common_help__s13_user_ranking__title">Xếp Hạng Người Dùng</string>
+    <string name="common_help__s13_user_ranking__content">Hãy nhắm đến mục tiêu đạt được xếp hạng điểm cao được tính dựa vào số câu trả lời đúng và thời gian trả lời của phần Trắc Nghiệm.</string>
+    <string name="common_help__s14_flashcard__word__title">Cách sử dụng Flashcard của Từ Vựng</string>
+    <string name="common_help__s14_flashcard__word__content">Mặt trước của thẻ là tiếng Nhật, mặt sau là tiếng Việt, có thể xác nhận bằng âm thanh.\n\nTất cả: kiểm tra toàn bộ từ vựng từ đầu đến cuối.\nGhi chú: Lướt sang trái đối với từ đã nhớ, đối với từ chưa nhớ và muốn kiểm tra lại thì lướt sang phải.</string>
+    <string name="common_help__s14_flashcard__sentence__title">Cách sử dụng Flashcard của Câu</string>
+    <string name="common_help__s14_flashcard__sentence__content">Mặt trước của thẻ là tiếng Nhật, mặt sau là tiếng Việt, có thể xác nhận bằng âm thanh.\n\nTất cả: kiểm tra toàn bộ câu từ đầu đến cuối.\nGhi chú: Lướt sang trái đối với câu đã nhớ, đối với câu chưa nhớ và muốn kiểm tra lại thì lướt sang phải.</string>
+    <string name="common_help__s15_knowledge_list__word__title">Giải thích Từ Vựng</string>
+    <string name="common_help__s15_knowledge_list__word__content">Chạm vào từ nào thì có thể xem thẻ giải thích của từ đó.</string>
+    <string name="common_help__s15_knowledge_list__sentence__title">Giải thích Câu</string>
+    <string name="common_help__s15_knowledge_list__sentence__content">Chạm vào câu nào thì có thể xem thẻ giải thích của câu đó.</string>
+    <string name="common_help__s18_setting__title">Thiết Đặt</string>
+    <string name="common_help__s18_setting__content">Ngôn Ngữ: Hãy chọn ngôn ngữ sử dụng trong giải thích ứng dụng.\n\nTrợ giúp: Hãy chọn hiển thị hay không hiển thị hộp thoại giải thích các trang.</string>
+    <string name="common_help__s19_lesson_category_content__word__title">Phương pháp học phần Từ vựng</string>
+    <string name="common_help__s19_lesson_category_content__word__content">1. Kiến Thức: Hãy sử dụng danh sách từ vựng và các giải thích của từ vựng để xác nhận kiến thức.\n2. Flashcard: Hãy sử dụng các thẻ để luyện tập một cách hiệu quả các từ không biết.\n3. Luyện Tập: Hãy xác nhận mức độ hiểu bài học với 3 sự lựa chọn.</string>
+    <string name="common_help__s19_lesson_category_content__sentence__title">Phương pháp học phần Câu</string>
+    <string name="common_help__s19_lesson_category_content__sentence__content">1. Ngữ Pháp: Hãy xác nhận các mục ngữ pháp sẽ luyện tập trong bài học này (chỉ phần Cơ Bản).\n2. Kiến Thức: Hãy sử dụng danh sách các câu và giải thích của câu để xác nhận kiến thức.\n3. Flashcard: Hãy sử dụng các thẻ để luyện tập một cách hiệu quả các câu mà mình không biết.\n4. Luyện Tập: Hãy xác nhận mức độ hiểu bài học với 3 sự lựa chọn.</string>
+    <string name="common_help__s24_trial_test_starting__title">Phương pháp học phần Trắc Nghiệm</string>
+    <string name="common_help__s24_trial_test_starting__content">Hãy luyện tập trả lời nhanh với 60 câu hỏi, mỗi câu có 3 đáp án lựa chọn đối với phần Từ Vựng và Câu của phần Cơ Bản.Hãy chọn nhiều câu trả lời đúng trong thời gian ngắn nhất để giành được số điểm cao.</string>
+    <string name="common_help__s27_grammar_list__title">Ngữ Pháp</string>
+    <string name="common_help__s27_grammar_list__content">Là nội dung giải thích các mẫu ngữ pháp học trong Bài này.\n
+Chạm vào mục để xác nhận giải thích chi tiết.</string>
+    <string name="common_help__s28_team_ranking__title">Xếp Hạng Nhóm</string>
+    <string name="common_help__s28_team_ranking__content">Xếp Hạng trong ngày và Xếp Hạng trong tuần của phần Trắc Nghiệm.\nNhắm đến mục tiêu đạt được Xếp Hạng cao nhất với điểm số được tính dựa vào số câu trả lời đúng và thời gian trả lời nhé.</string>
+
+</resources>

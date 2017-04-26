@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="s22_practice_result__btn_retry_mistakes">Làm lại phần sai</string>
+    <string name="s22_practice_result__btn_retry_all">Làm lại tất cả</string>
+
+</resources>

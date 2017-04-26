@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/s13_ranking_item_list_height"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/mViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/s13_ranking_item_list_padding"
+        android:layout_marginStart="@dimen/s13_ranking_item_list_padding">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/mImgPlace"
+            android:layout_width="@dimen/s13_ranking_item_list_photo_size"
+            android:layout_height="@dimen/s13_ranking_item_list_photo_size"
+            android:layout_centerVertical="true"
+            android:src="@drawable/s13_ranking_one" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvPosition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/s13_ranking_item_list_text_size"
+            tool:text="1" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mTvNameUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/s13_ranking_item_list_margin"
+        android:layout_marginStart="@dimen/s13_ranking_item_list_margin"
+        android:layout_toEndOf="@+id/mViewName"
+        android:layout_toRightOf="@+id/mViewName"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/s13_ranking_item_list_text_size"
+        tool:text="Alice McDonald" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mTvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/s13_ranking_item_list_padding"
+        android:layout_marginRight="@dimen/s13_ranking_item_list_padding"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/s13_ranking_item_list_text_size"
+        android:textStyle="bold"
+        tool:ignore="RelativeOverlap"
+        tool:text="100" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary" />
+</RelativeLayout>

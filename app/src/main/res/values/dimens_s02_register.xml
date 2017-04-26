@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BEGIN: S02Register. -->
+    <dimen name="s02_register_padding_all_screen">65dp</dimen>
+    <dimen name="s02_register_text_view_size_title_margin">15dp</dimen>
+    <dimen name="s02_register_edit_text_height">42dp</dimen>
+    <dimen name="s02_register_edit_text_margin">8dp</dimen>
+    <dimen name="s02_register_edit_text_padding">5dp</dimen>
+    <dimen name="s02_register_text_view_size">17dp</dimen>
+    <dimen name="s02_register_text_view_size_service">12dp</dimen>
+    <dimen name="s02_register_button_register_height">42dp</dimen>
+    <dimen name="s02_register_button_register_margin_top">24dp</dimen>
+    <dimen name="s02_register_text_view_service_margin">12dp</dimen>
+    <dimen name="s02_register_s01_image_language_padding">5dp</dimen>
+
+    <!-- END. -->
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mTvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/s27_grammar_list_item_list_height"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/s27_grammar_list_screen_padding"
+        android:paddingRight="@dimen/s27_grammar_list_screen_padding"
+        android:textColor="@color/s27_grammar_list_color_text_item"
+        android:textSize="@dimen/s27_grammar_list_content_text_size" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/mImgArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mTvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mTvTitle"
+        android:layout_marginBottom="@dimen/s27_grammar_list_content_margin"
+        android:layout_marginTop="@dimen/s27_grammar_list_content_margin"
+        android:autoLink="all"
+        android:background="@color/s27_grammar_list_color_screen"
+        android:lineSpacingExtra="0.5sp"
+        android:paddingLeft="@dimen/s27_grammar_list_screen_padding"
+        android:paddingRight="@dimen/s27_grammar_list_screen_padding"
+        android:textColor="@color/s27_grammar_list_color_text_item_content"
+        android:textSize="@dimen/s27_grammar_list_content_text_size"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/mViewLine"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_small_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/s27_grammar_list_color_view_line" />
+
+</RelativeLayout>

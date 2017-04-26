@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/s06_lesson_list_color_background_lesson_list">
+
+    <LinearLayout
+        android:id="@+id/mViewContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/s06_lesson_list_color_background_lesson_list"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/s06_lesson_list_view_padding"
+        android:paddingRight="@dimen/s06_lesson_list_view_padding">
+
+        <RelativeLayout
+            android:id="@+id/mRlDownloadAll"
+            android:layout_width="@dimen/s06_lesson_list_download_all_width"
+            android:layout_height="@dimen/s06_lesson_list_download_all_height"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:background="@drawable/s06_lesson_list_bg_text_view_download"
+            android:paddingLeft="@dimen/s06_lesson_list_download_all_padding"
+            android:paddingRight="@dimen/s06_lesson_list_download_all_padding"
+            android:visibility="gone">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="@dimen/s06_lesson_list_image_download_all_height"
+                android:layout_height="@dimen/s06_lesson_list_image_download_all_height"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null"
+                android:paddingBottom="@dimen/s06_lesson_list_download_all_content_padding"
+                android:src="@drawable/s06_lesson_list_ic_download_all" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/mTvDownloadAll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:paddingBottom="@dimen/s06_lesson_list_download_all_content_padding"
+                android:text="@string/s06_lesson_list__btn_download_all"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/s06_lesson_list_text_size_download_all" />
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/mRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mTvEmptyData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/common_msg__content_info__have_no_data"
+        android:visibility="gone" />
+</RelativeLayout>
+

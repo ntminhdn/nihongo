@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_auth__content_warning__confirm_logout">Bạn có chắc muốn đăng xuất?</string>
+    <string name="common_auth__lbl_confirm_password">Mật Khẩu Xác Nhận</string>
+    <string name="common_auth__lbl_email">Email</string>
+    <string name="common_auth__lbl_password">Mật Khẩu</string>
+    <string name="common_auth__lbl_reset_password">Đặt lại Mật Khẩu</string>
+    <string name="common_auth__lbl_user_code">Mã Học Viên</string>
+    <string name="common_auth__lbl_username">Tên Đăng Nhập</string>
+    <string name="common_auth__txt_confirm_password__validation_max_length">Mật Khẩu Xác Nhận nên dài tối đa 20 ký tự.</string>
+    <string name="common_auth__txt_confirm_password__validation_min_length">Mật Khẩu Xác Nhận nên dài tối thiểu 6 ký tự.</string>
+    <string name="common_auth__txt_confirm_password__validation_not_match">Mật Khẩu và Mật Khẩu Xác Nhận nên giống nhau.</string>
+    <string name="common_auth__txt_confirm_password__validation_required">Cần nhập Mật Khẩu Xác Nhận.</string>
+    <!-- Không đúng với RegEx cho phép. -->
+    <string name="common_auth__txt_email__validation_invalid">Email không hợp lệ.</string>
+    <string name="common_auth__txt_email__validation_max_length">Email nên dài tối đa 100 ký tự.</string>
+    <string name="common_auth__txt_email__validation_min_length">Email nên dài tối thiểu 5 ký tự.</string>
+    <string name="common_auth__txt_email__validation_required">Cần nhập Email.</string>
+    <string name="common_auth__txt_password__validation_max_length">Mật Khẩu nên dài tối đa 20 ký tự.</string>
+    <string name="common_auth__txt_password__validation_min_length">Mật Khẩu nên dài tối thiểu 6 ký tự.</string>
+    <string name="common_auth__txt_password__validation_required">Cần nhập Mật Khẩu.</string>
+    <string name="common_auth__txt_password__validation_too_long">Mật Khẩu quá dài.</string>
+    <string name="common_auth__txt_password__validation_too_short">Mật Khẩu quá ngắn.</string>
+    <!-- Không đúng với RegEx cho phép. -->
+    <string name="common_auth__txt_username__validation_invalid">Tên Đăng Nhập không hợp lệ.</string>
+    <string name="common_auth__txt_username__validation_max_length">Tên Đăng Nhập nên dài tối đa 20 ký tự.</string>
+    <string name="common_auth__txt_username__validation_min_length">Tên Đăng Nhập nên dài tối thiểu 5 ký tự.</string>
+    <string name="common_auth__txt_username__validation_required">Cần nhập Tên Đăng Nhập.</string>
+    <string name="common_auth__txt_username__validation_too_long">Tên Đăng Nhập quá dài.</string>
+    <string name="common_auth__txt_username__validation_too_short">Tên Đăng Nhập quá ngắn.</string>
+
+</resources>

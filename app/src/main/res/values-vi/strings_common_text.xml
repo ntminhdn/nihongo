@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_text__back">Trở lại</string>
+    <string name="common_text__cancel">Bỏ qua</string>
+    <string name="common_text__exit">Thoát</string>
+    <string name="common_text__next">Tiếp theo</string>
+    <string name="common_text__no">Không</string>
+    <string name="common_text__ok">OK</string>
+    <string name="common_text__retry">Thử lại</string>
+    <!-- Thêm mới cho màn hình cắt ảnh avatar. -->
+    <string name="common_text__select">Chọn</string>
+    <string name="common_text__send">Gửi</string>
+    <string name="common_text__set">Đặt</string>
+    <string name="common_text__update">Cập nhật</string>
+    <string name="common_text__yes">Có</string>
+
+</resources>

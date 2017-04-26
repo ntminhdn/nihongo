@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_unit__day__plural">ngày</string>
+    <string name="common_unit__day__singular">ngày</string>
+    <string name="common_unit__hour__plural">giờ</string>
+    <string name="common_unit__hour__singular">giờ</string>
+    <string name="common_unit__minute__plural">phút</string>
+    <string name="common_unit__minute__singular">phút</string>
+    <string name="common_unit__month__plural">tháng</string>
+    <string name="common_unit__month__singular">tháng</string>
+    <string name="common_unit__point__plural">điểm</string>
+    <string name="common_unit__point__singular">điểm</string>
+    <string name="common_unit__second__plural">giây</string>
+    <string name="common_unit__second__singular">giây</string>
+    <string name="common_unit__week__plural">tuần</string>
+    <string name="common_unit__week__singular">tuần</string>
+    <string name="common_unit__year__plural">năm</string>
+    <string name="common_unit__year__singular">năm</string>
+
+</resources>

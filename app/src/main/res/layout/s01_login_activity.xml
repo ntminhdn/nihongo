@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s01_login_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/s01_login_color_background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/s01_login_activity_img_vietnamese"
+                android:layout_width="@dimen/s01_login_activity_image_language_size"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:padding="@dimen/s01_login_activity_image_language_padding"
+                android:src="@drawable/s18_setting_vietnamese" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/s01_login_activity_img_english"
+                android:layout_width="@dimen/s01_login_activity_image_language_size"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:padding="@dimen/s01_login_activity_image_language_padding"
+                android:src="@drawable/s18_setting_english" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/s01_login_padding_all_screen"
+            android:paddingLeft="@dimen/s01_login_padding_all_screen"
+            android:paddingRight="@dimen/s01_login_padding_all_screen">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/common_app__name"
+                android:textColor="@color/s01_login_color_text"
+                android:textSize="@dimen/s01_login_text_size"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="@dimen/s01_login_image_view_height"
+                android:layout_height="@dimen/s01_login_image_view_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/s01_login_image_view_margin"
+                android:background="@drawable/s01_login_bg_image_light"
+                android:padding="@dimen/s01_login_image_view_padding">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@null"
+                    android:src="@drawable/s01_login_icon_light" />
+            </RelativeLayout>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/s01_login_activity_lbl_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/s01_login_text_view_size_title_margin"
+                android:text="@string/common_auth__lbl_username"
+                android:textColor="@color/s01_login_color_text"
+                android:textSize="@dimen/s01_login_text_size" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/s01_login_activity_txt_username"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/s01_login_edit_text_height"
+                android:layout_marginTop="@dimen/s01_login_edit_text_margin"
+                android:background="@drawable/s01_login_bg_edit_text"
+                android:inputType="textPersonName"
+                android:maxLength="@integer/common_txt_username_max_length"
+                android:padding="@dimen/s01_login_activity_edit_text_padding" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/s01_login_activity_lbl_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/s01_login_text_view_password_margin"
+                android:text="@string/common_auth__lbl_password"
+                android:textColor="@color/s01_login_color_text"
+                android:textSize="@dimen/s01_login_text_size" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/s01_login_activity_txt_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/s01_login_edit_text_height"
+                android:layout_marginTop="@dimen/s01_login_edit_text_margin"
+                android:background="@drawable/s01_login_bg_edit_text"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLength="@integer/common_txt_password_max_length"
+                android:padding="@dimen/s01_login_activity_edit_text_padding" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/s01_login_activity_lbl_forgot_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/s01_login_text_view_password_margin"
+                android:gravity="center"
+                android:text="@string/common_auth__lbl_reset_password"
+                android:textColor="@color/s01_login_color_text"
+                android:textSize="@dimen/s01_login_activity_text_size_small" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/s01_login_activity_lbl_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/s01_login_text_view_password_margin"
+                android:gravity="center"
+                android:text="@string/s01_login__lbl_register"
+                android:textColor="@color/s01_login_color_text"
+                android:textSize="@dimen/s01_login_activity_text_size_small" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/s01_login_activity_btn_login_system_server"
+                android:layout_width="@dimen/s01_login_activity_btn_login_width"
+                android:layout_height="@dimen/s01_login_activity_btn_login_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/s01_login_button_margin_top"
+                android:background="@drawable/s01_login_bg_button_login"
+                android:text="@string/s01_login__btn_login"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <com.facebook.login.widget.LoginButton
+                xmlns:facebook="http://schemas.android.com/apk/res-auto"
+                facebook:com_facebook_login_text="@string/s01_login__btn_facebook_login"
+                android:id="@+id/s01_login_activity_btn_login_facebook"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/s01_login_activity_btn_login_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/s01_login_button_margin_top"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

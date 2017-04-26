@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_module__about_us">About Us</string>
+    <string name="common_module__dashboard">Dashboard</string>
+    <string name="common_module__flashcard">Flashcard</string>
+    <string name="common_module__grammar">Grammar</string>
+    <string name="common_module__knowledge">Knowledge</string>
+    <string name="common_module__lesson_list">Lesson List</string>
+    <string name="common_module__logout">Logout</string>
+    <string name="common_module__practice">Practice</string>
+    <string name="common_module__register">Register</string>
+    <string name="common_module__reset_password">Reset Password</string>
+    <string name="common_module__setting">Setting</string>
+    <string name="common_module__take_a_test">Take a Test</string>
+    <string name="common_module__testing__result">Result</string>
+    <string name="common_module__testing__trial_title">Trial</string>
+    <string name="common_module__user_profile">Profile</string>
+    <string name="common_module__user_ranking">Ranking</string>
+
+</resources>

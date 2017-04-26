@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_unit__day__plural">days</string>
+    <string name="common_unit__day__singular">day</string>
+    <string name="common_unit__hour__plural">hours</string>
+    <string name="common_unit__hour__singular">hour</string>
+    <string name="common_unit__minute__plural">minutes</string>
+    <string name="common_unit__minute__singular">minute</string>
+    <string name="common_unit__month__plural">months</string>
+    <string name="common_unit__month__singular">month</string>
+    <string name="common_unit__point__plural">points</string>
+    <string name="common_unit__point__singular">point</string>
+    <string name="common_unit__second__plural">seconds</string>
+    <string name="common_unit__second__singular">second</string>
+    <string name="common_unit__week__plural">weeks</string>
+    <string name="common_unit__week__singular">week</string>
+    <string name="common_unit__year__plural">years</string>
+    <string name="common_unit__year__singular">year</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BEGIN: S08PreLesson. -->
+    <dimen name="s08_pre_lesson_category_padding">15dp</dimen>
+    <dimen name="s08_pre_lesson_category_button_padding">32dp</dimen>
+    <dimen name="s08_pre_lesson_category_button_text_size">18sp</dimen>
+    <dimen name="s08_pre_lesson_category_height_button">62dp</dimen>
+
+    <!-- END. -->
+</resources>

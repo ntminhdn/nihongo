@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/s15_knowledge_list_color_background"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_custom_view" />
+
+    <RelativeLayout
+        android:id="@+id/mViewDetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/s15_knowledge_list_color_background"
+        android:visibility="visible">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvTitleDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/s15_knowledge_list_title_padding"
+            android:textColor="@color/s15_knowledge_list_color_text"
+            android:textSize="@dimen/s15_knowledge_list_size_text_title"
+            tools:text="Basic/ word/ knowledge" />
+
+        <com.honkidenihongo.pre.gui.widget.LoopingViewPager
+            android:id="@+id/mViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/mTvPosition"
+            android:layout_below="@+id/mTvTitleDetail"
+            android:paddingLeft="@dimen/s15_knowledge_list_title_padding"
+            android:paddingRight="@dimen/s15_knowledge_list_title_padding" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/mImgPrevious"
+            android:layout_width="@dimen/s15_knowledge_list_size_icon_pre_and_next"
+            android:layout_height="@dimen/s15_knowledge_list_size_icon_pre_and_next"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/s15_knowledge_list_size_icon_pre_and_next_margin"
+            android:layout_marginStart="@dimen/s15_knowledge_list_size_icon_pre_and_next_margin"
+            android:background="@drawable/s23_knowledge_detail_pre"
+            android:contentDescription="@null" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/mImgNext"
+            android:layout_width="@dimen/s15_knowledge_list_size_icon_pre_and_next"
+            android:layout_height="@dimen/s15_knowledge_list_size_icon_pre_and_next"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/s15_knowledge_list_size_icon_pre_and_next_margin"
+            android:layout_marginRight="@dimen/s15_knowledge_list_size_icon_pre_and_next_margin"
+            android:background="@drawable/s23_knowledge_detail_next"
+            android:contentDescription="@null" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvPosition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/s15_knowledge_list_title_padding"
+            android:textColor="@color/s15_knowledge_list_color_text_position"
+            android:textSize="@dimen/s15_knowledge_list_size_text_title"
+            tools:text="20/100" />
+    </RelativeLayout>
+</LinearLayout>

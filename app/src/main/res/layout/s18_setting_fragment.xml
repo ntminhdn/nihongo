@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/s18_setting_color_background_screen"
+    android:orientation="vertical"
+    android:paddingEnd="@dimen/s18_setting_screen_padding_right"
+    android:paddingLeft="@dimen/s18_setting_screen_padding_left"
+    android:paddingRight="@dimen/s18_setting_screen_padding_right"
+    android:paddingStart="@dimen/s18_setting_screen_padding_left">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mTvLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/s18_setting_view_language_margin_top"
+        android:text="@string/s18_setting__language"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/s18_setting_text_size" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/s18_setting_view_language_padding"
+        android:layout_marginStart="@dimen/s18_setting_view_language_padding"
+        android:layout_marginTop="@dimen/s18_setting_screen_view_content_margin_top">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvLanguageVietnamese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/s18_setting__language__vietnamese"
+            android:textColor="@color/s18_setting_color_text_view"
+            android:textSize="@dimen/s18_setting_text_size"
+            tools:ignore="RelativeOverlap" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/mImgVietnamese"
+            android:layout_width="@dimen/s18_setting_photo_width"
+            android:layout_height="@dimen/s18_setting_photo_height"
+            android:layout_centerInParent="true"
+            android:contentDescription="@null"
+            android:src="@drawable/s18_setting_vietnamese" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/mChkVietnamese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:button="@drawable/s18_setting_background_checkbox" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/s18_setting_view_language_padding"
+        android:layout_marginStart="@dimen/s18_setting_view_language_padding"
+        android:layout_marginTop="@dimen/s18_setting_view_language_padding">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvLanguageEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/s18_setting__language__english"
+            android:textColor="@color/s18_setting_color_text_view"
+            android:textSize="@dimen/s18_setting_text_size"
+            tools:ignore="RelativeOverlap" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/mImgEnglish"
+            android:layout_width="@dimen/s18_setting_photo_width"
+            android:layout_height="@dimen/s18_setting_photo_height"
+            android:layout_centerInParent="true"
+            android:contentDescription="@null"
+            android:src="@drawable/s18_setting_english" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/mChkEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:button="@drawable/s18_setting_background_checkbox" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/s18_setting_view_language_margin_top"
+        android:text="@string/s18_setting__help"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/s18_setting_text_size" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/s18_setting_view_language_padding"
+        android:layout_marginStart="@dimen/s18_setting_view_language_padding"
+        android:layout_marginTop="@dimen/s18_setting_view_language_padding">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/s18_setting__help__display"
+            android:textColor="@color/s18_setting_color_text_view"
+            android:textSize="@dimen/s18_setting_text_size"
+            tools:ignore="RelativeOverlap" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/mChkShowPopup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:button="@drawable/s18_setting_background_checkbox" />
+    </RelativeLayout>
+
+</LinearLayout>

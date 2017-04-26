@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_text__back">Back</string>
+    <string name="common_text__cancel">Cancel</string>
+    <string name="common_text__exit">Exit</string>
+    <string name="common_text__next">Next</string>
+    <string name="common_text__no">No</string>
+    <string name="common_text__ok">OK</string>
+    <string name="common_text__retry">Retry</string>
+    <!-- Thêm mới cho màn hình cắt ảnh avatar. -->
+    <string name="common_text__select">Select</string>
+    <string name="common_text__send">Send</string>
+    <string name="common_text__set">Set</string>
+    <string name="common_text__update">Update</string>
+    <string name="common_text__yes">Yes</string>
+
+</resources>

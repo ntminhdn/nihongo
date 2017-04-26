@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BEGIN: S24TrialTestStarting. -->
+    <dimen name="s24_trial_test_starting_title_padding">15dp</dimen>
+    <dimen name="s24_trial_test_starting_image_size">140dp</dimen>
+    <dimen name="s24_trial_test_starting_text_size">18sp</dimen>
+
+    <!-- END. -->
+</resources>

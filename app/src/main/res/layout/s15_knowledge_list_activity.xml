@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/s15_knowledge_list_color_background"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_custom_view" />
+
+    <LinearLayout
+        android:id="@+id/mLLViewList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/s15_knowledge_list_color_background"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mTvTitleList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/s15_knowledge_list_title_padding"
+            android:textColor="@color/s15_knowledge_list_color_text"
+            android:textSize="@dimen/s15_knowledge_list_size_text_title"
+            tools:text="Basic/ word/ knowledge" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/mRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+</LinearLayout>

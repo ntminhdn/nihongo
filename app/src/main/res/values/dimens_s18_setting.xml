@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BEGIN: S18Setting. -->
+    <dimen name="s18_setting_screen_view_content_margin_top">20dp</dimen>
+    <dimen name="s18_setting_screen_padding_left">15dp</dimen>
+    <dimen name="s18_setting_screen_padding_right">30dp</dimen>
+    <dimen name="s18_setting_text_size">18sp</dimen>
+    <dimen name="s18_setting_photo_height">25dp</dimen>
+    <dimen name="s18_setting_photo_width">38dp</dimen>
+    <dimen name="s18_setting_view_language_padding">10dp</dimen>
+    <dimen name="s18_setting_view_language_margin_top">50dp</dimen>
+
+    <!-- END. -->
+</resources>
